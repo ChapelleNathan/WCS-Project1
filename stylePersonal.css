@@ -1,8 +1,12 @@
+body {
+    background-color: rgb(150, 150, 150);
+}
+
 .personalStuff {
     font-family    : var(--font);
     font-size      : 20px;
     display        : flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .skills {
@@ -10,6 +14,7 @@
     justify-content: flex-start;
     flex-direction : column;
     margin         : var(--spacing2);
+    width          : 500px;
 }
 
 .interests {
@@ -17,33 +22,45 @@
     justify-content: flex-start;
     flex-direction : column;
     margin         : var(--spacing2);
+    width          : 500px;
 }
 
 h3 {
     font-family: var(--title-font);
     font-size  : 40px;
+    margin     : 0 0 var(--spacing2) 0;
+}
+
+.skillsList {
+    display        : flex;
+    justify-content: space-between;
 }
 
 .fishing {
-    max-width: 300px;
-    height   : auto;
+    max-width    : 100em;
+    height       : auto;
+    margin-bottom: var(--spacing2);
 }
 
 .bobBurger {
-    max-width: 300px;
-    height   : auto;
-
+    max-width : 100em;
+    height    : auto;
+    margin-top: var(--spacing2);
 }
 
 .mantra {
     font-family: var(--title-font);
-    font-size  : 60px;
+    font-size  : 70px;
     text-align : center;
+    margin     : var(--spacing3);
 }
 
 li {
-    margin: var(--spacing2);
+    margin         : var(--spacing2) 0;
+    list-style-type: none;
 }
-ul{
+
+ul {
     padding: 0;
+    margin : 0;
 }

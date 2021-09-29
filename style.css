@@ -13,6 +13,7 @@
     --font-color  : #AD6542;
     --spacing     : 8px;
     --spacing2    : calc(var(--spacing) * 2);
+    --spacing3    : calc(var(--spacing2) * 2);
     --font        : "Roboto", sans-serif;
     --title-font  : 'krabby_pattyregular';
 }
