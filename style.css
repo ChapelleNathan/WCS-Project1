@@ -22,4 +22,10 @@ body{
     margin: 0;
 }
 
-
+a{
+    text-decoration: none;
+    color : var(--font-color)
+}
+a:visited{
+    color : var(--font-color)
+}

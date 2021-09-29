@@ -1,7 +1,3 @@
-h1{
-    font-family: var(--title-font);
-}
-
 nav{
     display: flex;
     align-items: center;
@@ -14,24 +10,33 @@ nav{
 }
 
 nav h1{
-    padding:  0  var(--spacing2) 0;
-}
-
-nav h2{
-    display: flex;
-    font-family: var(--title-font);
-    font-size: 1em;
-    align-items: center;
-    transition: 0.5s;
-    padding: 0 var(--spacing2) 0;
+    font-size: 26px;
 }
 
 .navigation{
     position: absolute;
     display: flex;
     flex-direction: row;
-    align-items: center;
     right: 0vw;
-   height: 100%;
+    padding: 0  0 0 var(--spacing2) ;
+    height: 100%;
+    font-size: 11px;
+}
+
+nav a{
+    display: flex;
+    font-family: var(--title-font);
+    font-size: 1em;
+    padding: 0 var(--spacing2) 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 130px;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    background-color: var(--darker-main-color);
 }
 
