@@ -5,7 +5,7 @@ nav{
     color: var(--font-color);
     justify-content: space-between;
     padding: 0;
-    position: relative;
+    position: static;
     width: 100vw;
 }
 
@@ -18,28 +18,46 @@ nav h2{
 }
 
 .navigation{
-    position: absolute;
     display: flex;
     flex-direction: row;
-    right: 0vw;
+    right: 0;
     padding: 0  0 0 var(--spacing2) ;
-    height: 100%;
     font-size: 11px;
 }
 
 nav a{
     display: flex;
+    height: 100%;
     font-family: var(--title-font);
     padding: 0 var(--spacing) 0;
-    margin: 0;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    width: 170px;
+    width: 150px;
     transition: 0.5s;
 }
 
-nav a:hover{
-    background-color: var(--darker-main-color);
+.list{
+    display: none;
 }
 
+nav  a:hover{
+    color: var(--second-color);    
+}
+
+
+@media screen and (max-width : 1025px){
+    .navigation{
+        transition: 0.5s;
+    }
+
+    .navigation{
+        display: flex;
+        position: static;
+    }
+
+    .burger{
+        display: block;
+        margin-right: var(--spacing3);
+    }
+    
+}
