@@ -1,16 +1,18 @@
+@import url("stylePersonal.css");
+
 @font-face {
     font-family: 'krabby_pattyregular';
-    src: url('font/krabbypatty-pkzab-webfont.woff2') format('woff2'),
-         url('font/krabbypatty-pkzab-webfont.woff') format('woff');
+    src        : url('font/krabbypatty-pkzab-webfont.woff2') format('woff2'), url('font/krabbypatty-pkzab-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
+    font-style : normal;
 }
-:root{
-    --main-color : #F2E422;
-    --second-color : #2980F2;
-    --font-color : #AD6542;
-    --spacing : 8px;
-    --spacing2 : calc(var(--spacing) * 2);
-    --font : "Roboto", sans-serif;
-    --title-font : 'krabby_pattyregular';
+
+:root {
+    --main-color  : #F2E422;
+    --second-color: #2980F2;
+    --font-color  : #AD6542;
+    --spacing     : 8px;
+    --spacing2    : calc(var(--spacing) * 2);
+    --font        : "Roboto", sans-serif;
+    --title-font  : 'krabby_pattyregular';
 }

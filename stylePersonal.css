@@ -1,0 +1,34 @@
+.personalStuff{
+    font-family: var(--font);
+    font-size: 20px;
+}
+.personalStuff {
+    display        : flex;
+    justify-content: space-around;
+}
+
+.skills {
+    display        : flex;
+    justify-content: flex-start;
+    flex-direction : column;
+}
+
+.interests {
+    display        : flex;
+    justify-content: flex-start;
+    flex-direction : column;
+}
+
+h2 {
+    font-family: var(--title-font);
+    font-size: 40px;
+}
+
+.fishing {
+    max-width: 80%;
+    height: auto;
+}
+.bobBurger {
+    max-width: 100%;
+    height: auto;
+}
