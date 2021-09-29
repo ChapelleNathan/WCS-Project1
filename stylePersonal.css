@@ -1,8 +1,6 @@
-.personalStuff{
-    font-family: var(--font);
-    font-size: 20px;
-}
 .personalStuff {
+    font-family    : var(--font);
+    font-size      : 20px;
     display        : flex;
     justify-content: space-around;
 }
@@ -11,24 +9,41 @@
     display        : flex;
     justify-content: flex-start;
     flex-direction : column;
+    margin         : var(--spacing2);
 }
 
 .interests {
     display        : flex;
     justify-content: flex-start;
     flex-direction : column;
+    margin         : var(--spacing2);
 }
 
-h2 {
+h3 {
     font-family: var(--title-font);
-    font-size: 40px;
+    font-size  : 40px;
 }
 
 .fishing {
-    max-width: 80%;
-    height: auto;
+    max-width: 300px;
+    height   : auto;
 }
+
 .bobBurger {
-    max-width: 100%;
-    height: auto;
+    max-width: 300px;
+    height   : auto;
+
+}
+
+.mantra {
+    font-family: var(--title-font);
+    font-size  : 60px;
+    text-align : center;
+}
+
+li {
+    margin: var(--spacing2);
+}
+ul{
+    padding: 0;
 }
