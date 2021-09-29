@@ -5,9 +5,28 @@ footer{
     align-items: center;
 }
 
+footer p{
+    font-size: 16px;
+    font-family: var(--font);
+    font-weight: bold;
+}
+
 .contactMe{
     display: flex;
-    
+}
+
+footer > h2{
+    user-select: none;
+}
+
+.mail{
+    display: flex;
+    flex-direction: row;
+    padding-right: var(--spacing3);
+    color: var(--font-color);
+    align-items: center;
+    justify-content: center;
+    user-select: none;
 }
 
 footer h3, h2{
@@ -17,6 +36,8 @@ footer h3, h2{
     transition: 0.5s;
 }
 
-h3:hover{
-    color: var(--second-color);
+footer  .linkedin:hover{
+    color : var(--second-color)
 }
+
+
