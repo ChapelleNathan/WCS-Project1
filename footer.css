@@ -1,0 +1,22 @@
+footer{
+    display: flex;
+    background-color: var(--third-color);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactMe{
+    display: flex;
+    
+}
+
+footer h3, h2{
+    padding:  0 var(--spacing2);
+    font-family: var(--title-font);
+    color: var(--font-color);
+    transition: 0.5s;
+}
+
+h3:hover{
+    color: var(--second-color);
+}
