@@ -1,3 +1,5 @@
+@import url("header.css");
+@import url("footer.css");
 @font-face {
     font-family: 'krabby_pattyregular';
     src: url('font/krabbypatty-pkzab-webfont.woff2') format('woff2'),
@@ -7,10 +9,25 @@
 }
 :root{
     --main-color : #F2E422;
+    --darker-main-color : #d6ca24;
     --second-color : #2980F2;
     --font-color : #AD6542;
+    --third-color : #C3E0CA;
     --spacing : 8px;
     --spacing2 : calc(var(--spacing) * 2);
+    --spacing3 : calc(var(--spacing2) * 2);
     --font : "Roboto", sans-serif;
     --title-font : 'krabby_pattyregular';
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color : var(--font-color)
+}
+a:visited{
+    color : var(--font-color)
 }

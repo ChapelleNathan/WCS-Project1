@@ -1,0 +1,45 @@
+nav{
+    display: flex;
+    align-items: center;
+    background-color: var(--main-color);
+    color: var(--font-color);
+    justify-content: space-between;
+    padding: 0;
+    position: relative;
+    width: 100vw;
+}
+
+nav h1{
+    font-size: 1.6em;
+}
+
+nav h2{
+    font-size: 1.6em;
+}
+
+.navigation{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 0vw;
+    padding: 0  0 0 var(--spacing2) ;
+    height: 100%;
+    font-size: 11px;
+}
+
+nav a{
+    display: flex;
+    font-family: var(--title-font);
+    padding: 0 var(--spacing) 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 170px;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    background-color: var(--darker-main-color);
+}
+
