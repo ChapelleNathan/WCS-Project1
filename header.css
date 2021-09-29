@@ -10,7 +10,11 @@ nav{
 }
 
 nav h1{
-    font-size: 26px;
+    font-size: 1.6em;
+}
+
+nav h2{
+    font-size: 1.6em;
 }
 
 .navigation{
@@ -26,13 +30,12 @@ nav h1{
 nav a{
     display: flex;
     font-family: var(--title-font);
-    font-size: 1em;
-    padding: 0 var(--spacing2) 0;
+    padding: 0 var(--spacing) 0;
     margin: 0;
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 130px;
+    width: 170px;
     transition: 0.5s;
 }
 
