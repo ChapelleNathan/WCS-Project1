@@ -14,3 +14,60 @@
     --font : "Roboto", sans-serif;
     --title-font : 'krabby_pattyregular';
 }
+body{
+  font-family: var(--font) ;
+}
+
+
+
+
+h1{
+  font-family: var(--title-font);
+float: right;
+margin: 0 15px 15px 0;
+font-size: 40px;
+text-shadow: 0px 1px 1px black
+;
+
+}
+h2{
+  font-family: var(--title-font);
+  float: right;
+  margin: 0 15px 15px 0;
+  font-size: 40px;
+  text-shadow: 0px 1px 1px black
+  ;
+}
+h3{
+  font-family: var(--title-font);
+  float: right;
+  margin: 0 15px 15px 0;
+  font-size: 40px;
+  text-shadow: 0px 1px 1px black
+  ;
+}
+
+
+
+
+p{
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 120%;
+  text-indent: 15px;
+  
+
+  
+  }
+
+.bobimage {
+  width: 15rem;
+  height: 14.9rem;
+  border: 0.4rem solid;
+  
+
+
+}
+.bobimage img{
+width: 15rem;
+}
