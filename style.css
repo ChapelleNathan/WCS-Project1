@@ -10,6 +10,7 @@
 :root {
     --main-color  : #F2E422;
     --second-color: #2980F2;
+    --lighter-second-color: #80aae248;
     --font-color  : #AD6542;
     --spacing     : 8px;
     --spacing2    : calc(var(--spacing) * 2);
