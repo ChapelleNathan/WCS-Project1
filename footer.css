@@ -8,7 +8,7 @@ footer {
 .contactMe {
     display: flex;
     padding: var(--spacing2) var(--spacing3);
-    gap: var(--spacing2);
+    gap: var(--spacing3);
     font-size: clamp(1em,2vw,16px);
 }
 
