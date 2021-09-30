@@ -35,6 +35,7 @@ nav a {
     justify-content: flex-end;
     width: 150px;
     font-size: 18px;
+    transition: .5s;
 }
 
 .list {
@@ -67,14 +68,16 @@ nav a:hover {
         height: 30px;
         width: 100%;
         justify-content: center;
-        font-size: 1.9em;
+        font-size: clamp(1.5em,5vw,24px);
     }
     .navigation a:hover {
         background-color: var(--darker-main-color);
         border-radius: 3px;
+        box-shadow: 0 0 1px rgb(39, 39, 39);
     }
     .navigation .closeBurger:hover {
         background-color: var(--main-color);
+        box-shadow: none;
     }
     #navigation:not(:target) {
         right: -100%;
@@ -86,8 +89,8 @@ nav a:hover {
     }
     .closeBurger {
         display: flex;
-        width: 20px;
-        height: 20px;
+        width: clamp(15px,4vw,20px);
+        height: clamp(15px,4vh,20px);
     }
     .list {
         display: inline;
