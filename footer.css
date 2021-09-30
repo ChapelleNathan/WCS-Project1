@@ -13,16 +13,17 @@ footer p{
 
 .contactMe{
     display: flex;
+    padding: var(--spacing2) var(--spacing3);
 }
 
 footer > h2{
     user-select: none;
+    padding-left: var(--spacing3);
 }
 
 .mail{
     display: flex;
     flex-direction: row;
-    padding-right: var(--spacing3);
     color: var(--font-color);
     align-items: center;
     justify-content: center;
@@ -30,7 +31,6 @@ footer > h2{
 }
 
 footer h3, h2{
-    padding:  0 var(--spacing2);
     font-family: var(--title-font);
     color: var(--font-color);
     transition: 0.5s;
@@ -40,10 +40,11 @@ footer  .linkedin:hover{
     color : var(--second-color)
 }
 
-@media screen {
+@media screen and (max-width : 700px){
     .contactMe{
         flex-direction: column;
         flex-wrap: wrap;
+        align-items: flex-end;
     }
 }
 

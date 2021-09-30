@@ -11,14 +11,20 @@ nav{
 
 nav h1{
     font-size: 1.6em;
-    padding:  0 var(--spacing2);
 }
 
 .navigation{
     display: flex;
     flex-direction: row;
     right: 0;
+    padding: 0 var(--spacing3);
     font-size: 11px;
+}
+
+.myCV{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 var(--spacing3)
 }
 
 nav a{
@@ -26,7 +32,7 @@ nav a{
     height: 100%;
     font-family: var(--title-font);
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     width: 150px;
     transition: 0.5s;
     font-size: 16px;
@@ -40,6 +46,9 @@ nav  a:hover{
     color: var(--second-color);    
 }
 
+.closeBurger{
+    display: none;
+}
 
 @media screen and (max-width : 1000px){
     .navigation{
@@ -54,7 +63,6 @@ nav  a:hover{
         width: 40vw;
         background-color: var(--main-color);
         box-shadow: -3px 0 10px;
-        transition: 0.5s;
     }
 
     .navigation a{
@@ -64,16 +72,30 @@ nav  a:hover{
 
     #navigation:not(:target){
         right: -100%;
+        transition: .5s;
+    }
+
+    #navigation:target{
+        right: 0%;
+        transition: 1s;
     }
 
     #navigation:target{
         right: 0;
     }
 
-  
+    .closeBurger{
+        display: flex;
+    }
 
     .list{
         display: inline;
+        width: 25px;
+        height: 25px;
     }
     
+    .linkList{
+        width: auto;
+        padding: var(--spacing3);
+    }
 }
