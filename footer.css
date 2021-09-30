@@ -40,4 +40,11 @@ footer  .linkedin:hover{
     color : var(--second-color)
 }
 
+@media screen {
+    .contactMe{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
 

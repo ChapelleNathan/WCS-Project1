@@ -11,17 +11,13 @@ nav{
 
 nav h1{
     font-size: 1.6em;
-}
-
-nav h2{
-    font-size: 1.6em;
+    padding:  0 var(--spacing2);
 }
 
 .navigation{
     display: flex;
     flex-direction: row;
     right: 0;
-    padding: 0  0 0 var(--spacing2) ;
     font-size: 11px;
 }
 
@@ -29,11 +25,11 @@ nav a{
     display: flex;
     height: 100%;
     font-family: var(--title-font);
-    padding: 0 var(--spacing) 0;
     align-items: center;
     justify-content: center;
     width: 150px;
     transition: 0.5s;
+    font-size: 16px;
 }
 
 .list{
@@ -45,19 +41,39 @@ nav  a:hover{
 }
 
 
-@media screen and (max-width : 1025px){
+@media screen and (max-width : 1000px){
     .navigation{
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        gap: var(--spacing3);
+        height: 100vh;
+        width: 40vw;
+        background-color: var(--main-color);
+        box-shadow: -3px 0 10px;
         transition: 0.5s;
     }
 
-    .navigation{
-        display: flex;
-        position: static;
+    .navigation a{
+        height: 30px;
+        width: 100%;
     }
 
-    .burger{
-        display: block;
-        margin-right: var(--spacing3);
+    #navigation:not(:target){
+        right: -100%;
+    }
+
+    #navigation:target{
+        right: 0;
+    }
+
+  
+
+    .list{
+        display: inline;
     }
     
 }
