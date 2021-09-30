@@ -1,27 +1,28 @@
-footer{
+footer {
     display: flex;
     background-color: var(--third-color);
     justify-content: space-between;
     align-items: center;
 }
 
-footer p{
+footer p {
     font-size: 16px;
     font-family: var(--font);
     font-weight: bold;
 }
 
-.contactMe{
+.contactMe {
     display: flex;
     padding: var(--spacing2) var(--spacing3);
+    gap: var(--spacing2);
 }
 
-footer > h2{
+footer>h2 {
     user-select: none;
     padding-left: var(--spacing3);
 }
 
-.mail{
+.mail {
     display: flex;
     flex-direction: row;
     color: var(--font-color);
@@ -30,22 +31,21 @@ footer > h2{
     user-select: none;
 }
 
-footer h3, h2{
+footer h3,
+h2 {
     font-family: var(--title-font);
     color: var(--font-color);
     transition: 0.5s;
 }
 
-footer  .linkedin:hover{
-    color : var(--second-color)
+footer h3:hover {
+    color: var(--second-color)
 }
 
-@media screen and (max-width : 700px){
-    .contactMe{
+@media screen and (max-width: 700px) {
+    .contactMe {
         flex-direction: column;
         flex-wrap: wrap;
         align-items: flex-end;
     }
 }
-
-
