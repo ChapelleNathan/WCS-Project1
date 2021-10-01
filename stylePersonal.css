@@ -28,7 +28,7 @@ body {
     width          : 500px;
 }
 
-h3 {
+.skillsAndInterests h3 {
     font-family: var(--title-font);
     font-size  : 40px;
     margin     : 0 0 var(--spacing2) 0;
