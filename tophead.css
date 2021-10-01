@@ -1,0 +1,25 @@
+    h1 {
+        font-family: var(--title-font);
+        margin: 0 15px 15px 0;
+        font-size: 40px;
+        text-transform: cap;
+    }
+    
+    p {
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 120%;
+        text-indent: 25px;
+        margin: 0px 0px 15px;
+    }
+    
+    .bloc {
+        display: flex;
+    }
+    
+    .bobimage img {
+        width: 15rem;
+        border: 3px solid;
+        padding: 0;
+    }
