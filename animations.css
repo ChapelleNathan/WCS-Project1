@@ -1,0 +1,54 @@
+.progressBar {
+    --barHeight    : 10px;
+    position       : relative;
+    height         : var(--barHeight);
+    width          : 200px;
+    border         : 2px solid var(--second-color);
+    border-radius  : 15px;
+    animation-delay: var(--barDelay);
+}
+
+
+.progressColor {
+    --completion    : 100%;
+    position        : absolute;
+    background-color: var(--second-color);
+    height          : var(--barHeight);
+    animation       : 0.6s ease-out progressAnimation forwards;
+    animation-delay : var(--barDelay);
+}
+
+
+#crabSteak {
+    --completion: 98%;
+}
+
+#pouet {
+    --completion: 78%;
+    --barDelay  : 0.2s;
+}
+
+#client {
+    --completion: 67%;
+    --barDelay  : 0.4s;
+}
+
+#shapeChanger {
+    --completion: 88%;
+    --barDelay  : 0.6s;
+}
+
+#members {
+    --completion: 70%;
+    --barDelay  : 0.8s;
+}
+
+@keyframes progressAnimation {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--completion);
+    }
+}

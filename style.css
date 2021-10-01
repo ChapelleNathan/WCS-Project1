@@ -8,19 +8,20 @@
     font-weight: normal;
     font-style: normal;
 }
-:root{
-    --main-color : #F2E422;
-    --darker-main-color : #d6ca24;
+:root {
+    --main-color   : #F2E422;
     --second-color : #2980F2;
-    --lighter-second-color : #7dabe777; 
-    --font-color : #AD6542;
-    --third-color : #C3E0CA;
-    --spacing : 8px;
-    --spacing2 : calc(var(--spacing) * 2);
-    --spacing3 : calc(var(--spacing2) * 2);
-    --font : "Roboto", sans-serif;
-    --title-font : 'krabby_pattyregular';
+    --font-color   : #AD6542;
+    --lighter-second-color: #80aae248;
+    --dark-color   : black;
+    --spacing      : 8px;
+    --spacing2     : calc(var(--spacing) * 2);
+    --spacing3     : calc(var(--spacing2) * 2);
+    --spacingSkills: 125px;
+    --font         : "Roboto", sans-serif;
+    --title-font   : 'krabby_pattyregular';
 }
+
 
 body{
     margin: 0;

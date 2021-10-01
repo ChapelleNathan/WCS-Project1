@@ -1,3 +1,5 @@
+@import url("animations.css");
+
 body {
     background-color: var(--lighter-second-color);
     color: var(--font-color);
@@ -13,23 +15,26 @@ body {
     font-size      : 20px;
     display        : flex;
     flex-direction : row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .skills {
     display        : flex;
     justify-content: flex-start;
     flex-direction : column;
-    margin         : var(--spacing2);
     width          : 500px;
+    border-right   : 1px solid var(--dark-color);
+    padding        : var(--spacing2);
+    padding-right  : var(--spacingSkills);
 }
 
 .interests {
     display        : flex;
     justify-content: flex-start;
     flex-direction : column;
-    margin         : var(--spacing2);
     width          : 500px;
+    padding        : var(--spacing2);
+    padding-left   : var(--spacingSkills);
 }
 
 .skillsAndInterests h3 {
@@ -84,14 +89,16 @@ ul {
 @media screen and (max-width:360px) {
     .personalStuff {
         flex-direction: column;
-        align-items: center;
+        align-items   : center;
     }
-    .fishing{
+
+    .fishing {
         flex-direction: column-reverse;
     }
-    .skillsList{
+
+    .skillsList {
         flex-direction: column;
-        align-items: space-between;
+        align-items   : space-between;
     }
 
 }
