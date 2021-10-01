@@ -1,0 +1,84 @@
+body {
+    background-color: var(--lighter-second-color);
+    color: var(--font-color);
+}
+
+
+.personalStuff {
+    font-family    : var(--font);
+    font-size      : 20px;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+}
+
+.skills {
+    display        : flex;
+    justify-content: flex-start;
+    flex-direction : column;
+    margin         : var(--spacing2);
+    width          : 500px;
+}
+
+.interests {
+    display        : flex;
+    justify-content: flex-start;
+    flex-direction : column;
+    margin         : var(--spacing2);
+    width          : 500px;
+}
+
+h3 {
+    font-family: var(--title-font);
+    font-size  : 40px;
+    margin     : 0 0 var(--spacing2) 0;
+}
+
+.skillsList {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.fishing {
+    max-width    : 100em;
+    height       : auto;
+    margin-bottom: var(--spacing2);
+}
+
+.bobBurger {
+    max-width : 100em;
+    height    : auto;
+    margin-top: var(--spacing2);
+}
+
+.mantra {
+    font-family: var(--title-font);
+    font-size  : 70px;
+    text-align : center;
+    margin     : var(--spacing3);
+}
+
+li {
+    margin         : var(--spacing2) 0;
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+    margin : 0;
+}
+
+@media screen and (max-width:360px) {
+    .personalStuff {
+        flex-direction: column;
+        align-items: center;
+    }
+    .fishing{
+        flex-direction: column-reverse;
+    }
+    .skillsList{
+        flex-direction: column;
+        align-items: space-between;
+    }
+
+}
