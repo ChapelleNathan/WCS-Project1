@@ -1,8 +1,10 @@
 @import url("animations.css");
 
 body {
-    background-color: rgb(150, 150, 150);
+    background-color: var(--lighter-second-color);
+    color: var(--font-color);
 }
+
 
 .personalStuff {
     font-family    : var(--font);
