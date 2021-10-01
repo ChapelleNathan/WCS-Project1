@@ -3,7 +3,11 @@ body {
     color: var(--font-color);
 }
 
-
+.skillsAndInterests{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .personalStuff {
     font-family    : var(--font);
     font-size      : 20px;
@@ -56,6 +60,15 @@ body {
     font-size  : 70px;
     text-align : center;
     margin     : var(--spacing3);
+    height: 154px;
+    text-shadow: 0 2px 1px black;
+    user-select: none;
+    width: 1000px;
+}
+
+.mantra:hover{
+    text-shadow: 0 3px 5px black;
+    font-size: 71px;
 }
 
 li {

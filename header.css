@@ -6,6 +6,7 @@ nav {
     justify-content: space-between;
     padding: 0;
     position: static;
+    box-shadow: 0 3px 10px;
 }
 
 nav h1 {
