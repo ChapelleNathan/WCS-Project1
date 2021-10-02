@@ -9,13 +9,11 @@
 }
 
 :root {
-    --main-color: #FFEF02;
-    --second-color: #36C8D9;
-    --darker-second-color: #298f9b;
+    --main-color: #F2E422;
+    --second-color: #2980F2;
     --font-color: #AD6542;
-    --third-color: #C4E0CA;
     --lighter-second-color: #80aae248;
-    --dark-color: rgba(0, 0, 0, 0.555);
+    --dark-color: black;
     --spacing: 8px;
     --spacing2: calc(var(--spacing) * 2);
     --spacing3: calc(var(--spacing2) * 2);
@@ -24,11 +22,28 @@
     --title-font: 'krabby_pattyregular';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background-color: var(--second-color);
     font-weight: bold;
     color: var(--font-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color)
+}
+
+li {
+    font-weight: bold;
+}
+
+img {
+    user-select: none;
 }
 
 a {

@@ -1,99 +1,102 @@
 @import url("animations.css");
+body {
+    background-color: var(--lighter-second-color);
+    color: var(--font-color);
+}
 
-.skillsAndInterests{
+.skillsAndInterests {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
 .personalStuff {
-    font-family    : var(--font);
-    font-size      : 20px;
-    display        : flex;
-    flex-direction : row;
+    font-family: var(--font);
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
 .skills {
-    display        : flex;
+    display: flex;
     justify-content: flex-start;
-    flex-direction : column;
-    width          : 500px;
-    border-right   : 1px solid var(--dark-color);
-    padding        : var(--spacing2);
-    padding-right  : var(--spacingSkills);
+    flex-direction: column;
+    width: 500px;
+    border-right: 1px solid var(--dark-color);
+    padding: var(--spacing2);
+    padding-right: var(--spacingSkills);
 }
 
 .interests {
-    display        : flex;
+    display: flex;
     justify-content: flex-start;
-    flex-direction : column;
-    width          : 500px;
-    padding        : var(--spacing2);
-    padding-left   : var(--spacingSkills);
+    flex-direction: column;
+    width: 500px;
+    padding: var(--spacing2);
+    padding-left: var(--spacingSkills);
 }
 
 .skillsAndInterests h3 {
     font-family: var(--title-font);
-    font-size  : 40px;
-    margin     : 0 0 var(--spacing2) 0;
+    font-size: 40px;
+    margin: 0 0 var(--spacing2) 0;
+    user-select: none;
 }
 
 .skillsList {
-    display        : flex;
+    display: flex;
     justify-content: space-between;
 }
 
 .fishing {
-    max-width    : 100em;
-    height       : auto;
+    max-width: 100em;
+    height: auto;
     margin-bottom: var(--spacing2);
 }
 
 .bobBurger {
-    max-width : 100em;
-    height    : auto;
+    max-width: 100em;
+    height: auto;
     margin-top: var(--spacing2);
 }
 
 .mantra {
     font-family: var(--title-font);
-    font-size  : 70px;
-    text-align : center;
-    margin     : var(--spacing3);
+    font-size: 70px;
+    text-align: center;
+    margin: var(--spacing3);
     height: 154px;
     text-shadow: 0 2px 1px black;
     user-select: none;
     width: 1000px;
 }
 
-.mantra:hover{
+.mantra:hover {
     text-shadow: 0 3px 5px black;
     font-size: 71px;
 }
 
 li {
-    margin         : var(--spacing2) 0;
+    margin: var(--spacing2) 0;
     list-style-type: none;
 }
 
 ul {
     padding: 0;
-    margin : 0;
+    margin: 0;
 }
 
 @media screen and (max-width:360px) {
     .personalStuff {
         flex-direction: column;
-        align-items   : center;
+        align-items: center;
     }
-
     .fishing {
         flex-direction: column-reverse;
     }
-
     .skillsList {
         flex-direction: column;
-        align-items   : space-between;
+        align-items: space-between;
     }
-
 }
