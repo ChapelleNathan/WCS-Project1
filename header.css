@@ -70,7 +70,7 @@ nav a:hover {
         height: 30px;
         width: 100%;
         justify-content: center;
-        font-size: clamp(1.5em,5vw,24px);
+        font-size: clamp(1.5em, 5vw, 24px);
     }
     .navigation a:hover {
         background-color: var(--darker-main-color);
@@ -91,8 +91,8 @@ nav a:hover {
     }
     .closeBurger {
         display: flex;
-        width: clamp(15px,4vw,20px);
-        height: clamp(15px,4vh,20px);
+        width: clamp(15px, 4vw, 20px);
+        height: clamp(15px, 4vh, 20px);
     }
     .list {
         display: inline;
