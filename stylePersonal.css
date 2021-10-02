@@ -1,10 +1,5 @@
 @import url("animations.css");
 
-body {
-    background-color: var(--lighter-second-color);
-    color: var(--font-color);
-}
-
 .skillsAndInterests{
     display: flex;
     align-items: center;

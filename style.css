@@ -1,37 +1,41 @@
 @import url("header.css");
 @import url("footer.css");
 @import url("stylePersonal.css");
-
 @font-face {
     font-family: 'krabby_pattyregular';
-    src        : url('font/krabbypatty-pkzab-webfont.woff2') format('woff2'), url('font/krabbypatty-pkzab-webfont.woff') format('woff');
+    src: url('font/krabbypatty-pkzab-webfont.woff2') format('woff2'), url('font/krabbypatty-pkzab-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
 :root {
-    --main-color   : #F2E422;
-    --second-color : #2980F2;
-    --font-color   : #AD6542;
+    --main-color: #FFEF02;
+    --second-color: #36C8D9;
+    --darker-second-color: #298f9b;
+    --font-color: #AD6542;
+    --third-color: #C4E0CA;
     --lighter-second-color: #80aae248;
-    --dark-color   : black;
-    --spacing      : 8px;
-    --spacing2     : calc(var(--spacing) * 2);
-    --spacing3     : calc(var(--spacing2) * 2);
+    --dark-color: rgba(0, 0, 0, 0.555);
+    --spacing: 8px;
+    --spacing2: calc(var(--spacing) * 2);
+    --spacing3: calc(var(--spacing2) * 2);
     --spacingSkills: 125px;
-    --font         : "Roboto", sans-serif;
-    --title-font   : 'krabby_pattyregular';
+    --font: "Roboto", sans-serif;
+    --title-font: 'krabby_pattyregular';
 }
 
-
-body{
+body {
     margin: 0;
-    background-color: var(--lighter-second-color);
+    background-color: var(--second-color);
+    font-weight: bold;
+    color: var(--font-color);
 }
 
-a{
+a {
     text-decoration: none;
-    color : var(--font-color)
+    color: var(--font-color)
 }
-a:visited{
-    color : var(--font-color)
+
+a:visited {
+    color: var(--font-color)
 }
