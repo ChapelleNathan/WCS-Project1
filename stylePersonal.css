@@ -1,13 +1,9 @@
 @import url("animations.css");
-body {
-    background-color: var(--lighter-second-color);
-    color: var(--font-color);
-}
-
 .skillsAndInterests {
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-shadow: 1px 1px var(--dark-color);
 }
 
 .personalStuff {
@@ -67,13 +63,12 @@ body {
     text-align: center;
     margin: var(--spacing3);
     height: 154px;
-    text-shadow: 0 2px 1px black;
     user-select: none;
     width: 1000px;
 }
 
 .mantra:hover {
-    text-shadow: 0 3px 5px black;
+    text-shadow: 1px 1px 3px black;
     font-size: 71px;
 }
 
