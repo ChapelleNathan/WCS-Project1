@@ -106,18 +106,42 @@ ul {
     margin : 0;
 }
 
-@media screen and (max-width:360px) {
-    .personalStuff {
-        flex-direction: column;
-        align-items   : center;
+@media screen and (max-width:1070px) {
+    .mantra {
+        height: auto;
+        width : auto;
     }
 
-    .fishing {
+    .interests {
+        width: 80vw;
+    }
+
+    .skills {
+        width         : 80vw;
         flex-direction: column-reverse;
     }
 
-    .skillsList {
+    .skillsAndInterests {
         flex-direction: column;
-        align-items   : space-between;
+        align-items   : none;
+
+    }
+
+    .personalStuff {
+        flex-direction: column;
+        height        : auto;
+    }
+
+    .skillsList{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: var(--spacing2);
+    }
+    .progressBar{
+        margin-top: calc(var(--spacing) / 2);
+    }
+
+    hr {
+        display: none;
     }
 }
