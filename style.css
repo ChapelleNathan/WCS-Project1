@@ -13,12 +13,18 @@
     --second-color: #58C6CF;
     --third-color: #C0DFCD;
     --font-color: #AD6542;
+    --darker-font-color: #965839;
     --lighter-second-color: #80aae248;
     --dark-color: rgb(32, 32, 27);
+
+
     --spacing: 8px;
     --spacing2: calc(var(--spacing) * 2);
     --spacing3: calc(var(--spacing2) * 2);
+    --spacing4: calc(var(--spacing3) * 2);
     --spacingSkills: 125px;
+
+
     --font: "Roboto", sans-serif;
     --title-font: 'krabby_pattyregular';
 }
