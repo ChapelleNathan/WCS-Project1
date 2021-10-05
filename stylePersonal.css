@@ -10,6 +10,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-shadow: 1px 1px var(--dark-color);
 }
 
 .personalStuff {

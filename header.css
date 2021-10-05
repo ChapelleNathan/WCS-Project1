@@ -26,6 +26,7 @@ nav h1 {
     display: flex;
     justify-content: flex-start;
     padding: 0 var(--spacing3);
+    width: 10em;
 }
 
 nav a {
