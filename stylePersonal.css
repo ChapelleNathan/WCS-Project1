@@ -41,6 +41,11 @@ hr{
     border-radius: 10px;
 }
 
+.interests img{
+    align-self: center;
+    width: 100%;
+}
+
 .interests {
     display: flex;
     justify-content: flex-end;

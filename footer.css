@@ -13,6 +13,10 @@ footer {
     font-size: clamp(1em, 2vw, 16px);
 }
 
+.myCV{
+    width: 200px;
+}
+
 footer h2 {
     user-select: none;
     padding-left: var(--spacing3);
