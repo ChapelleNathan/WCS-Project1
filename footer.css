@@ -3,7 +3,7 @@ footer {
     background-color: var(--main-color);
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 -3px 10px var(--dark-color);
+    box-shadow: 0 -3px 10px -5px var(--dark-color);
 }
 
 .contactMe {
