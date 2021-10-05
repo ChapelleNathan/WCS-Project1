@@ -44,7 +44,6 @@ body {
     font-size: 40px;
     margin: 0 0 var(--spacing2) 0;
     user-select: none;
-    text-shadow: 0 0 2px  var(--dark-color);
 }
 
 .skillsList {
@@ -84,7 +83,6 @@ body {
 li {
     margin: var(--spacing2) 0;
     list-style-type: none;
-    text-shadow: 0 0 2px var(--dark-color);
 }
 
 ul {
