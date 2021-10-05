@@ -6,11 +6,12 @@ nav {
     justify-content: space-between;
     padding: 0;
     position: static;
-    width: 100vw;
+    box-shadow: 0 3px 10px var(--dark-color);
 }
 
 nav h1 {
     font-size: 1.6em;
+    width: 100em;
 }
 
 .navigation {
@@ -24,7 +25,8 @@ nav h1 {
 .myCV {
     display: flex;
     justify-content: flex-start;
-    padding: 0 var(--spacing3)
+    padding: 0 var(--spacing3);
+    width: 10em;
 }
 
 nav a {
@@ -35,7 +37,7 @@ nav a {
     justify-content: flex-end;
     width: 150px;
     font-size: 18px;
-    transition: .02s;
+    transition: .5s;
 }
 
 .list {
@@ -69,7 +71,7 @@ nav a:hover {
         height: 30px;
         width: 100%;
         justify-content: center;
-        font-size: clamp(1.5em,5vw,24px);
+        font-size: clamp(1.5em, 5vw, 24px);
     }
     .navigation a:hover {
         background-color: var(--darker-main-color);
@@ -90,8 +92,8 @@ nav a:hover {
     }
     .closeBurger {
         display: flex;
-        width: clamp(15px,4vw,20px);
-        height: clamp(15px,4vh,20px);
+        width: clamp(15px, 4vw, 20px);
+        height: clamp(15px, 4vh, 20px);
     }
     .list {
         display: inline;
