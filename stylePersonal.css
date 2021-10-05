@@ -4,6 +4,8 @@ body {
     color: var(--font-color);
 }
 
+
+
 .skillsAndInterests {
     display: flex;
     align-items: center;
@@ -42,6 +44,7 @@ body {
     font-size: 40px;
     margin: 0 0 var(--spacing2) 0;
     user-select: none;
+    text-shadow: 0 0 2px  var(--dark-color);
 }
 
 .skillsList {
@@ -67,19 +70,21 @@ body {
     text-align: center;
     margin: var(--spacing3);
     height: 154px;
-    text-shadow: 0 2px 1px black;
+    text-shadow: 0 0 2px black;
     user-select: none;
     width: 1000px;
 }
 
+
 .mantra:hover {
-    text-shadow: 0 3px 5px black;
+    text-shadow: 0 0px 4px black;
     font-size: 71px;
 }
 
 li {
     margin: var(--spacing2) 0;
     list-style-type: none;
+    text-shadow: 0 0 2px var(--dark-color);
 }
 
 ul {

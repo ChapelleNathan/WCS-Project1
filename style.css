@@ -14,7 +14,7 @@
     --third-color: #C0DFCD;
     --font-color: #AD6542;
     --lighter-second-color: #80aae248;
-    --dark-color: black;
+    --dark-color: rgb(32, 32, 27);
     --spacing: 8px;
     --spacing2: calc(var(--spacing) * 2);
     --spacing3: calc(var(--spacing2) * 2);
@@ -45,11 +45,6 @@ li {
 
 img {
     user-select: none;
-}
-
-a {
-    text-decoration: none;
-    color: var(--font-color)
 }
 
 a:visited {
