@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'krabby_pattyregular';
-    src        : url('font/krabbypatty-pkzab-webfont.woff2') format('woff2'), url('font/krabbypatty-pkzab-webfont.woff') format('woff');
+    src        : url('../font/krabbypatty-pkzab-webfont.woff2') format('woff2'), url('font/krabbypatty-pkzab-webfont.woff') format('woff');
     font-weight: normal;
     font-style : normal;
 }
@@ -20,7 +20,7 @@
     --lighter-font-color: #a77c67;
     --lighter-second-color: #80aae248;
     --dark-color: rgb(41, 41, 33);
-    --dark-transparent: rgba(248, 248, 190, 0.13);
+    --dark-transparent: rgba(248, 248, 190, 0.356);
 
 
     --spacing      : 8px;
@@ -37,19 +37,19 @@
 html {
     scroll-behavior: smooth;
 }
-title{
-    font: var(--title-font);
-}
+
 p{
   font-size: 20px;
   margin: 0;
 }
 
-
+h1{
+    font-family: var(--title-font);
+}
 
 body {
     margin           : 0;
-    background-image : url('images/flowers.jpg');
+    background-image : url('../images/flowers.jpg');
     background-size  : cover;
     background-repeat: repeat-y;
     font-weight      : bold;
