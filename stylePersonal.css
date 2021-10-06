@@ -20,7 +20,7 @@ body {
     justify-content: center;
     gap: var(--spacing4);
     height: 900px;
-    margin: var(--spacing3);
+    width: 100%;
 }
 
 .skills {
@@ -28,6 +28,7 @@ body {
     justify-content: flex-start;
     flex-direction: column;
     width: 500px;
+    margin: var(--spacing3);
 }
 .skills img{
     width: 80%;
@@ -51,6 +52,8 @@ hr{
     justify-content: flex-end;
     flex-direction: column;
     width: 400px;
+    margin: var(--spacing3);
+
 }
 
 .skillsAndInterests h3 {
@@ -85,7 +88,6 @@ hr{
     height: 154px;
     text-shadow: 0 0 2px black;
     user-select: none;
-    width: 1000px;
 }
 
 
