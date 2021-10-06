@@ -67,7 +67,8 @@ hr {
     justify-content: space-between;
 }
 
-.fishing, .bobBurger {
+.fishing,
+.bobBurger {
     max-width    : 100em;
     height       : auto;
     margin-bottom: var(--spacing2);
@@ -102,8 +103,8 @@ ul {
 
 @media screen and (max-width:1070px) {
     .mantra {
-        height: auto;
-        width : auto;
+        height   : auto;
+        width    : auto;
         font-size: 3em;
     }
 
@@ -112,7 +113,7 @@ ul {
     }
 
     .skills {
-        width         : 90vw;
+        width: 90vw;
         flex-direction: column-reverse;
     }
 
@@ -127,16 +128,20 @@ ul {
         height        : auto;
     }
 
-    .skillsList{
-        display: flex;
+    .skillsList {
+        display       : flex;
         flex-direction: column;
-        margin-bottom: var(--spacing2);
+        margin-bottom : var(--spacing2);
     }
-    .progressBar{
+
+    .progressBar {
         margin-top: calc(var(--spacing) / 2);
     }
-    .bobBurger, .fishing{
+
+    .bobBurger,
+    .fishing {
         width: 90vw;
+        margin-bottom: var(--spacing3);
     }
 
     hr {
