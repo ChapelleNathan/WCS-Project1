@@ -1,22 +1,23 @@
 @import url("animations.css");
+
 body {
     background-color: var(--lighter-second-color);
-    color: var(--font-color);
+    color           : var(--font-color);
 }
 
 
 
 .skillsAndInterests {
-    display: flex;
-    align-items: center;
+    display       : flex;
+    align-items   : center;
     flex-direction: column;
 }
 
 .personalStuff {
-    font-family: var(--font);
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
+    font-family    : var(--font);
+    font-size      : 20px;
+    display        : flex;
+    flex-direction : row;
     justify-content: center;
     gap: var(--spacing4);
     height: 900px;
@@ -24,31 +25,32 @@ body {
 }
 
 .skills {
-    display: flex;
+    display        : flex;
     justify-content: flex-start;
     flex-direction: column;
     width: 500px;
     margin: var(--spacing3);
 }
-.skills img{
-    width: 80%;
+
+.skills img {
+    width     : 80%;
     align-self: center;
 }
 
-hr{
-    height:75%;
-    align-self: center;
-    border: 1px solid var(--darker-font-color);
+hr {
+    height       : 75%;
+    align-self   : center;
+    border       : 1px solid var(--darker-font-color);
     border-radius: 10px;
 }
 
-.interests img{
+.interests img {
     align-self: center;
-    width: 100%;
+    width     : 100%;
 }
 
 .interests {
-    display: flex;
+    display        : flex;
     justify-content: flex-end;
     flex-direction: column;
     width: 400px;
@@ -58,34 +60,29 @@ hr{
 
 .skillsAndInterests h3 {
     font-family: var(--title-font);
-    font-size: 40px;
-    margin: 0 0 var(--spacing2) 0;
+    font-size  : 40px;
+    margin     : 0 0 var(--spacing2) 0;
     user-select: none;
 }
 
 .skillsList {
-    display: flex;
+    display        : flex;
     justify-content: space-between;
 }
 
-.fishing {
-    max-width: 100em;
-    height: auto;
-    margin-bottom: var(--spacing2);
-}
-
+.fishing,
 .bobBurger {
-    max-width: 100em;
-    height: auto;
-    margin-top: var(--spacing2);
+    max-width    : 100em;
+    height       : auto;
+    margin-bottom: var(--spacing2);
 }
 
 .mantra {
     font-family: var(--title-font);
-    font-size: 70px;
-    text-align: center;
-    margin: var(--spacing3);
-    height: 154px;
+    font-size  : 70px;
+    text-align : center;
+    margin     : var(--spacing3);
+    height     : 154px;
     text-shadow: 0 0 2px black;
     user-select: none;
 }
@@ -93,29 +90,63 @@ hr{
 
 .mantra:hover {
     text-shadow: 0 0px 4px black;
-    font-size: 71px;
+    font-size  : 71px;
 }
 
 li {
-    margin: var(--spacing2) 0;
+    margin         : var(--spacing2) 0;
     list-style-type: none;
 }
 
 ul {
     padding: 0;
-    margin: 0;
+    margin : 0;
 }
 
-@media screen and (max-width:360px) {
-    .personalStuff {
-        flex-direction: column;
-        align-items: center;
+@media screen and (max-width:1070px) {
+    .mantra {
+        height   : auto;
+        width    : auto;
+        font-size: 3em;
     }
-    .fishing {
+
+    .interests {
+        width: 90vw;
+    }
+
+    .skills {
+        width: 90vw;
         flex-direction: column-reverse;
     }
-    .skillsList {
+
+    .skillsAndInterests {
         flex-direction: column;
-        align-items: space-between;
+        align-items   : none;
+
+    }
+
+    .personalStuff {
+        flex-direction: column;
+        height        : auto;
+    }
+
+    .skillsList {
+        display       : flex;
+        flex-direction: column;
+        margin-bottom : var(--spacing2);
+    }
+
+    .progressBar {
+        margin-top: calc(var(--spacing) / 2);
+    }
+
+    .bobBurger,
+    .fishing {
+        width: 90vw;
+        margin-bottom: var(--spacing3);
+    }
+
+    hr {
+        display: none;
     }
 }
