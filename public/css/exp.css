@@ -4,7 +4,7 @@
     background-color: var(--dark-transparent);
     border-radius: var(--spacing);
     margin: var(--spacing3);
-    padding: var(--spacing2);
+    padding: var(--spacing3);
     gap: var(--spacing);
 }
 
