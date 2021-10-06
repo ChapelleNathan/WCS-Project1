@@ -1,3 +1,7 @@
+<?php
+require '../src/script.php'
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,10 +54,9 @@
             <img src="https://casoar.org/wp-content/uploads/2020/10/Bob-leponge.png" alt="Jolie éponge">
             <div class="title">
                 <h3>A propos</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate provident voluptates architecto
-                    iure
-                    vel maxime qui odit fugit temporibus deserunt cum, tenetur tempore molestiae nemo voluptatem quidem
-                    itaque quod dolores.
+                <p>Bob l'éponge</p>
+                <p>21 ans d'expérience dans le domaine de la restauration, spongieux et dynamique.Motivé à l'idée de rejoindre un établissement spécialisé dans la gastronomie de crabe ou de l'huitre,
+                je suis à la recherche d'une expérience qui permettra de mettre en avant ma passion et mes connaissances en pâté de crabe. Passioné d'humour , j'ai le contact facile avec les gens et je pourrais donc facilement m'intégrer dans une équipe de travail.
                 </p>
             </div>
         </div>
@@ -61,19 +64,33 @@
 
     <section class="trainings">
         <h3>Formation</h3>
+
+        <?php
+foreach($formations as $formation){?>
+
         <div class="trainings-info">
-            <h4><!--Lieu en php--></h4>
-            <p><!--description en php--></p>
-            <p><!--date en php--> </p>
+            <h4><?= $formation['title']?></h4>
+            <p><?= $formation['place']?></p>
+            <p><?= $formation['date']?></p>
+            <p><?= $formation['description']?></p>
         </div>
+<?php } ?>
+
     </section>
     <section class="experience">
+
         <h3>Experience</h3>
+
+        <?php
+foreach($experiences as $experience){?>
         <div class="experience-info">
-            <h4><!--Lieu en php--></h4>
-            <p><!--description en php--></p>
-            <p><!--date en php--> </p>
+            <h4><?= $experience['title']?></h4>
+            <p><?= $experience['place']?></p>
+            <p><?= $experience['date']?></p>
+            <p><?= $experience['description']?></p>
         </div>
+<?php } ?>
+
     </section>
     <section class="skillsAndInterests">
 
