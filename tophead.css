@@ -3,6 +3,8 @@
         margin: 0 15px 15px 0;
         font-size: 40px;
         text-transform: cap;
+        margin-left: 15px;
+        margin-top: 15px;
     }
     
     p {
@@ -11,15 +13,19 @@
         font-weight: bold;
         line-height: 120%;
         text-indent: 25px;
-        margin: 0px 0px 15px;
+        margin-left: 15px;
+        margin-top: 15px;
     }
     
     .bloc {
         display: flex;
+        border: solid;
     }
     
     .bobimage img {
         width: 15rem;
         border: 3px solid;
         padding: 0;
+        margin-left: 15px;
+        margin-top: 5px;
     }

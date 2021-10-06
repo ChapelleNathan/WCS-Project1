@@ -1,0 +1,10 @@
+.experience{
+    display: flex;
+    border: solid;
+    margin-top: 15px
+    ;
+}
+.experience p {
+    display: inline-block;
+    font-size: 22px;
+}
