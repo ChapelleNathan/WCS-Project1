@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'krabby_pattyregular';
-    src        : url('../font/krabbypatty-pkzab-webfont.woff2') format('woff2'), url('font/krabbypatty-pkzab-webfont.woff') format('woff');
+    src        : url('../font/some-time-later.regular.otf');
     font-weight: normal;
     font-style : normal;
 }
@@ -33,6 +33,7 @@
 
     --font      : "Roboto", sans-serif;
     --title-font: 'krabby_pattyregular';
+
 }
 
 html {
@@ -57,6 +58,7 @@ body {
     font-weight      : bold;
     color            : var(--font-color);
     box-sizing: border-box;
+    cursor           : url('../images/cursor.cur'), default;
 }
 
 a {
@@ -80,9 +82,9 @@ a:visited {
     color: var(--font-color)
 }
 
-@media screen and (max-width:1070px){
-    body{
-    background-size: contain;
-    
+@media screen and (max-width:1070px) {
+    body {
+        background-size: contain;
+
     }
 }

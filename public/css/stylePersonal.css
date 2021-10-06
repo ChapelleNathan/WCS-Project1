@@ -35,12 +35,6 @@
     align-self: center;
 }
 
-hr {
-    height       : 75%;
-    align-self   : center;
-    border : 1px solid var(--darker-font-color);
-    border-radius: 10px;
-}
 
 .interests img {
     align-self: center;
@@ -103,6 +97,8 @@ ul {
     margin : 0;
 }
 
+
+
 @media screen and (max-width:1070px) {
     .mantra {
         height   : auto;
@@ -131,7 +127,6 @@ ul {
     }
 
     .skillsList {
-        display       : flex;
         flex-direction: column;
         margin-bottom : var(--spacing2);
     }
@@ -144,9 +139,5 @@ ul {
     .fishing {
         width: 90vw;
         margin-bottom: var(--spacing3);
-    }
-
-    hr {
-        display: none;
     }
 }

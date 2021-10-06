@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
 
         <nav>
             <a href="#" class="myCV" id="myCV">
-                <h1>Bob L'Eponge</h1>
+                <h1>Bob L'Éponge</h1>
             </a>
             <a href="#navigation" class="linkList">
 
@@ -37,11 +37,11 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="closeBurger" viewBox="0 0 16 16">
                         <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z" />
                     </svg></a>
-                <a href="#">A propos</a>
+                <a href="#">À propos</a>
                 <a href="#">Formations</a>
-                <a href="#">Experiences</a>
-                <a href="#skills">Competences</a>
-                <a href="#interests">Centre d'interet</a>
+                <a href="#">Expériences</a>
+                <a href="#skills">Compétences</a>
+                <a href="#interests">Centres d'intérêt</a>
             </div>
 
         </nav>
@@ -51,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
 
             <img src="https://casoar.org/wp-content/uploads/2020/10/Bob-leponge.png" alt="Jolie éponge">
             <div class="title">
-                <h3>A propos</h3>
+                <h3>À propos</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate provident voluptates architecto
                     iure
                     vel maxime qui odit fugit temporibus deserunt cum, tenetur tempore molestiae nemo voluptatem quidem
@@ -62,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
     </section>
 
     <section class="trainings">
-        <h3>Formation</h3>
+        <h3>Formations</h3>
         <div class="trainings-info">
             <h4>
                 <!--Lieu en php-->
@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
         </div>
     </section>
     <section class="experience">
-        <h3>Experience</h3>
+        <h3>Expériences</h3>
         <div class="experience-info">
             <h4>
                 <!--Lieu en php-->
@@ -97,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
             <div class="skills" id="skills">
 
                 <ul>
-                    <h3>Competences</h3>
+                    <h3>Compétences</h3>
                     <li class="skillsList">Pâtés de crabe
                         <div class="progressBar">
                             <div class="progressColor" id="crabSteak"></div>
@@ -127,11 +127,10 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
                 </ul>
                 <img class="bobBurger" src="images/emojipng.com-4981643.png" alt="Bob burger">
             </div>
-            <hr>
             <div class="interests">
                 <img class="fishing" src="images/bobMéduse.png" alt="Bob filet méduse">
+                <h3 id="interests">Centres d'intérêt</h3>
                 <ul>
-                    <h3 id="interests">Centres d'interet</h3>
                     <li>Faire des bulles de savon avec Patrick</li>
                     <li>Attraper des méduses</li>
                     <li>Faire du karaté avec Sandy</li>
@@ -196,22 +195,12 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
 
 
     <footer>
-        <h2>Me contacter :</h2>
-        <div class="contactMe">
-            <a href="http://www.spontex.fr" target="_blank">
-                <h3 class="linkedin">LinkedIn : <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                    </svg></h3>
-            </a>
-            <div class="mail">
-                <a href="mailto:bobeponge@bikinibottom.eau">
-                    <h3>Gmail : <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
-                            <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
-                        </svg></h3>
-                </a>
-            </div>
-        </div>
 
+        <h2><a href="http://www.spontex.fr"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
+                <path d="M8 .95 14.61 4h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.379l.5 2A.5.5 0 0 1 15.5 17H.5a.5.5 0 0 1-.485-.621l.5-2A.5.5 0 0 1 1 14V7H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 4h.89L8 .95zM3.776 4h8.447L8 2.05 3.776 4zM2 7v7h1V7H2zm2 0v7h2.5V7H4zm3.5 0v7h1V7h-1zm2 0v7H12V7H9.5zM13 7v7h1V7h-1zm2-1V5H1v1h14zm-.39 9H1.39l-.25 1h13.72l-.25-1z" />
+            </svg>
+            Mentions Légales
+        </a></h2>
     </footer>
 </body>
 

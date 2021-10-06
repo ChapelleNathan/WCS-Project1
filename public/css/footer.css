@@ -1,55 +1,33 @@
 footer {
     display: flex;
+    justify-content: center;
     background-color: var(--main-color);
-    justify-content: space-between;
-    align-items: center;
     box-shadow: 0 -3px 10px -5px var(--dark-color);
-}
-
-.contactMe {
-    display: flex;
-    padding: var(--spacing2) var(--spacing3);
-    gap: var(--spacing3);
-    font-size: clamp(1em, 2vw, 16px);
-}
-
-.myCV{
-    width: 200px;
 }
 
 footer h2 {
     user-select: none;
     padding-left: var(--spacing3);
     font-size: 24px;
-}
-
-.mail {
-    display: flex;
-    flex-direction: row;
-    color: var(--font-color);
-    align-items: center;
-    justify-content: center;
-    user-select: none;
-}
-
-footer h3,
-h2 {
     font-family: var(--title-font);
     color: var(--font-color);
-    transition: 0.5s;
 }
 
-footer h3:hover {
-    color: var(--second-color)
+footer a {
+    transition: .5s;
+}
+
+footer h2 :hover{
+    color: var(--second-color);
+}
+
+.mentionIcon{
+    width: 24px;
+    height: 24px;
 }
 
 @media screen and (max-width: 700px) {
-    .contactMe {
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: flex-end;
-        font-size: clamp(.8em, 2.5vw, 16px);
-    }
+    
     footer h2 {
         font-size: clamp(1.07em, 4vw, 24px);
     }
