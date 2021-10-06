@@ -1,6 +1,10 @@
 @import url("header.css");
 @import url("footer.css");
 @import url("stylePersonal.css");
+@import url("tophead.css"); 
+@import url("trainings.css");
+@import url("exp.css");
+
 
 @font-face {
     font-family: 'krabby_pattyregular';
@@ -10,12 +14,13 @@
 }
 
 :root {
-    --main-color          : #F2E422;
-    --second-color        : #5bc6cece;
-    --font-color          : #AD6542;
-    --darker-font-color   : #965839;
+    --main-color: #F2E422;
+    --second-color: #5bc6cece;
+    --font-color: #AD6542;
+    --lighter-font-color: #a77c67;
     --lighter-second-color: #80aae248;
-    --dark-color          : rgb(41, 41, 33);
+    --dark-color: rgb(41, 41, 33);
+    --dark-transparent: rgba(248, 248, 190, 0.356);
 
 
     --spacing      : 8px;
@@ -34,9 +39,18 @@ html {
     scroll-behavior: smooth;
 }
 
+p{
+  font-size: 20px;
+  margin: 0;
+}
+
+h1{
+    font-family: var(--title-font);
+}
+
 body {
     margin           : 0;
-    background-image : url('images/flowers.jpg');
+    background-image : url('../images/flowers.jpg');
     background-size  : cover;
     background-repeat: repeat-y;
     font-weight      : bold;
@@ -47,6 +61,10 @@ body {
 a {
     text-decoration: none;
     color          : var(--font-color)
+}
+
+p{
+    font-family: var(--font);
 }
 
 li {

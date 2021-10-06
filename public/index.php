@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,100&display=swap"
@@ -44,6 +44,37 @@
 
         </nav>
     </header>
+    <section class="presentation">
+        <div class="bloc">
+
+            <img src="https://casoar.org/wp-content/uploads/2020/10/Bob-leponge.png" alt="Jolie éponge">
+            <div class="title">
+                <h3>A propos</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate provident voluptates architecto
+                    iure
+                    vel maxime qui odit fugit temporibus deserunt cum, tenetur tempore molestiae nemo voluptatem quidem
+                    itaque quod dolores.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="trainings">
+        <h3>Formation</h3>
+        <div class="trainings-info">
+            <h4><!--Lieu en php--></h4>
+            <p><!--description en php--></p>
+            <p><!--date en php--> </p>
+        </div>
+    </section>
+    <section class="experience">
+        <h3>Experience</h3>
+        <div class="experience-info">
+            <h4><!--Lieu en php--></h4>
+            <p><!--description en php--></p>
+            <p><!--date en php--> </p>
+        </div>
+    </section>
     <section class="skillsAndInterests">
 
 
@@ -87,6 +118,7 @@
                 <img class="fishing" src="images/bobMéduse.png" alt="Bob filet méduse">
                 <h3 id="interests">Centres d'intérêt</h3>
                 <ul>
+                    <h3 id="interests">Centres d'interet</h3>
                     <li>Faire des bulles de savon avec Patrick</li>
                     <li>Attraper des méduses</li>
                     <li>Faire du karaté avec Sandy</li>
@@ -119,6 +151,8 @@
         </div>
 
     </footer>
+
+
 </body>
 
 </html>

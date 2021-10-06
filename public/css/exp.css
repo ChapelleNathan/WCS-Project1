@@ -1,0 +1,39 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark-transparent);
+    border-radius: var(--spacing);
+    margin: var(--spacing3);
+    padding: var(--spacing3);
+    gap: var(--spacing);
+}
+
+.experience-info{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+
+}
+
+.experience-info:not(:nth-child(2)){
+    margin-block-start: var(--spacing3);
+
+}
+
+
+.experience h3{
+    font-family: var(--title-font);
+    font-size: 40px;
+    margin : 0;
+    margin-block-end: var(--spacing3);
+}
+
+.experience h4{
+    font-size: 36px;
+    font-family: var(--font);
+    margin: 0;
+}
+
+.experience p{
+    color: var(--lighter-font-color);
+}
