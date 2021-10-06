@@ -66,6 +66,7 @@ nav a:hover {
         width: 40vw;
         background-color: var(--main-color);
         box-shadow: -3px 0 10px;
+        z-index: 1;
     }
     .navigation a {
         height: 30px;
