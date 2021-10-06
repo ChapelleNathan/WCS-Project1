@@ -1,30 +1,31 @@
 @import url("header.css");
 @import url("footer.css");
 @import url("stylePersonal.css");
+
 @font-face {
     font-family: 'krabby_pattyregular';
-    src: url('font/krabbypatty-pkzab-webfont.woff2') format('woff2'), url('font/krabbypatty-pkzab-webfont.woff') format('woff');
+    src        : url('font/krabbypatty-pkzab-webfont.woff2') format('woff2'), url('font/krabbypatty-pkzab-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
+    font-style : normal;
 }
 
 :root {
-    --main-color: #F2E422;
-    --second-color: #5bc6cece;
-    --font-color: #AD6542;
-    --darker-font-color: #965839;
+    --main-color          : #F2E422;
+    --second-color        : #5bc6cece;
+    --font-color          : #AD6542;
+    --darker-font-color   : #965839;
     --lighter-second-color: #80aae248;
-    --dark-color: rgb(41, 41, 33);
+    --dark-color          : rgb(41, 41, 33);
 
 
-    --spacing: 8px;
-    --spacing2: calc(var(--spacing) * 2);
-    --spacing3: calc(var(--spacing2) * 2);
-    --spacing4: calc(var(--spacing3) * 2);
+    --spacing      : 8px;
+    --spacing2     : calc(var(--spacing) * 2);
+    --spacing3     : calc(var(--spacing2) * 2);
+    --spacing4     : calc(var(--spacing3) * 2);
     --spacingSkills: 125px;
 
 
-    --font: "Roboto", sans-serif;
+    --font      : "Roboto", sans-serif;
     --title-font: 'krabby_pattyregular';
 }
 
@@ -33,15 +34,17 @@ html {
 }
 
 body {
-    margin: 0;
-    background-color: var(--second-color);
-    font-weight: bold;
-    color: var(--font-color);
+    margin           : 0;
+    background-image : url('images/flowers.jpg');
+    background-size  : cover;
+    background-repeat: repeat-y;
+    font-weight      : bold;
+    color            : var(--font-color);
 }
 
 a {
     text-decoration: none;
-    color: var(--font-color)
+    color          : var(--font-color)
 }
 
 li {
@@ -54,4 +57,11 @@ img {
 
 a:visited {
     color: var(--font-color)
+}
+
+@media screen and (max-width:1070px){
+    body{
+    background-size: contain;
+    
+    }
 }
