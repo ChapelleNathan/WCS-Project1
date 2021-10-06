@@ -1,10 +1,5 @@
 @import url("animations.css");
 
-body {
-    background-color: var(--lighter-second-color);
-    color           : var(--font-color);
-}
-
 
 
 .skillsAndInterests {
@@ -20,16 +15,18 @@ body {
     flex-direction : row;
     justify-content: center;
     gap: var(--spacing4);
-    height: 900px;
     width: 100%;
 }
 
 .skills {
     display        : flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: column;
     width: 500px;
     margin: var(--spacing3);
+    border-radius: var(--spacing);
+    background-color: var(--dark-transparent);
+    padding: var(--spacing3);
 }
 
 .skills img {
@@ -40,7 +37,7 @@ body {
 hr {
     height       : 75%;
     align-self   : center;
-    border       : 1px solid var(--darker-font-color);
+    border : 1px solid var(--darker-font-color);
     border-radius: 10px;
 }
 
@@ -51,11 +48,13 @@ hr {
 
 .interests {
     display        : flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     flex-direction: column;
-    width: 400px;
+    width: 500px;
     margin: var(--spacing3);
-
+    border-radius: var(--spacing);
+    background-color: var(--dark-transparent);
+    padding: var(--spacing3);
 }
 
 .skillsAndInterests h3 {
@@ -70,8 +69,7 @@ hr {
     justify-content: space-between;
 }
 
-.fishing,
-.bobBurger {
+.fishing, .bobBurger {
     max-width    : 100em;
     height       : auto;
     margin-bottom: var(--spacing2);
@@ -94,7 +92,7 @@ hr {
 }
 
 li {
-    margin         : var(--spacing2) 0;
+    margin : var(--spacing2) 0;
     list-style-type: none;
 }
 

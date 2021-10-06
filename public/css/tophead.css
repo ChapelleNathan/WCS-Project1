@@ -1,0 +1,21 @@
+    .bloc h3 {
+        font-family: var(--title-font);
+        font-size: 40px;
+    }
+     .title{
+        margin: var(--spacing);
+    }
+    
+    .bloc {
+        display: flex;
+        background-color: var(--dark-transparent);
+        margin: var(--spacing3);
+        border-radius: var(--spacing);
+        padding: var(--spacing2);
+    }
+    
+    .bloc img {
+       width: 25%;
+       border : 1px solid var(--font-color);
+       border-radius: var(--spacing);
+    }
