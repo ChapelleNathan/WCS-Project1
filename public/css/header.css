@@ -1,0 +1,108 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: var(--main-color);
+    color: var(--font-color);
+    justify-content: space-between;
+    padding: 0;
+    position: static;
+    box-shadow: 0 3px 10px var(--dark-color);
+}
+
+nav h1 {
+    font-size: 1.6em;
+    width: 100em;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    padding: 0 var(--spacing3);
+    font-size: 11px;
+}
+
+.myCV {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 var(--spacing3);
+    width: 10em;
+}
+
+nav a {
+    display: flex;
+    height: 100%;
+    font-family: var(--title-font);
+    align-items: center;
+    justify-content: flex-end;
+    width: 150px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.list {
+    display: none;
+}
+
+nav a:hover {
+    color: var(--second-color);
+}
+
+.closeBurger {
+    display: none;
+    transition: .3s;
+}
+
+@media screen and (max-width: 1070px) {
+    .navigation {
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        gap: var(--spacing3);
+        height: 100vh;
+        width: 40vw;
+        background-color: var(--main-color);
+        box-shadow: -3px 0 10px;
+        z-index: 1;
+    }
+    .navigation a {
+        height: 30px;
+        width: 100%;
+        justify-content: center;
+        font-size: clamp(1.5em, 5vw, 24px);
+    }
+    .navigation a:hover {
+        background-color: var(--darker-main-color);
+        border-radius: 3px;
+        box-shadow: 0 0 1px rgb(39, 39, 39);
+    }
+    .navigation .linkCloseBurger:hover {
+        background-color: var(--main-color);
+        box-shadow: none;
+    }
+    #navigation:not(:target) {
+        right: -100%;
+        transition: .5s;
+    }
+    #navigation:target {
+        right: 0%;
+        transition: 1s;
+    }
+    .closeBurger {
+        display: flex;
+        width: clamp(15px, 4vw, 20px);
+        height: clamp(15px, 4vh, 20px);
+    }
+    .list {
+        display: inline;
+        width: 25px;
+        height: 25px;
+    }
+    .linkList {
+        width: auto;
+        padding: var(--spacing3);
+    }
+}

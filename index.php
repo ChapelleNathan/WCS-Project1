@@ -31,8 +31,7 @@ include("script.php");
 
             <p>Bob l'éponge</p>
 
-            <p>21 ans d'expérience dans le domaine de la restauration, spongieux et dynamique.Motivé à l'idée de rejoindre un établissement spécialisé dans la gastronomie de crabe ou de l'huitre,
-                je suis à la recherche d'une expérience qui permettra de mettre en avant ma passion et mes connaissances en pâté de crabe. Passioné d'humour , j'ai le contact facile avec les gens et je pourrais donc facilement m'intégrer dans une équipe de travail.
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate provident voluptates architecto iure vel maxime qui odit fugit temporibus deserunt cum, tenetur tempore molestiae nemo voluptatem quidem itaque quod dolores.
             </p>
         </div>
 
