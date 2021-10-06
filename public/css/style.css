@@ -4,11 +4,13 @@
 @import url("tophead.css"); 
 @import url("trainings.css");
 @import url("exp.css");
+
+
 @font-face {
     font-family: 'krabby_pattyregular';
-    src: url('../font/krabbypatty-pkzab-webfont.woff2') format('woff2'), url('font/krabbypatty-pkzab-webfont.woff') format('woff');
+    src        : url('font/krabbypatty-pkzab-webfont.woff2') format('woff2'), url('font/krabbypatty-pkzab-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
+    font-style : normal;
 }
 
 :root {
@@ -21,14 +23,14 @@
     --dark-transparent: rgba(248, 248, 190, 0.13);
 
 
-    --spacing: 8px;
-    --spacing2: calc(var(--spacing) * 2);
-    --spacing3: calc(var(--spacing2) * 2);
-    --spacing4: calc(var(--spacing3) * 2);
+    --spacing      : 8px;
+    --spacing2     : calc(var(--spacing) * 2);
+    --spacing3     : calc(var(--spacing2) * 2);
+    --spacing4     : calc(var(--spacing3) * 2);
     --spacingSkills: 125px;
 
 
-    --font: "Roboto", sans-serif;
+    --font      : "Roboto", sans-serif;
     --title-font: 'krabby_pattyregular';
 }
 
@@ -46,15 +48,17 @@ p{
 
 
 body {
-    margin: 0;
-    background-color: var(--second-color);
-    font-weight: bold;
-    color: var(--font-color);
+    margin           : 0;
+    background-image : url('images/flowers.jpg');
+    background-size  : cover;
+    background-repeat: repeat-y;
+    font-weight      : bold;
+    color            : var(--font-color);
 }
 
 a {
     text-decoration: none;
-    color: var(--font-color)
+    color          : var(--font-color)
 }
 
 p{
@@ -71,4 +75,11 @@ img {
 
 a:visited {
     color: var(--font-color)
+}
+
+@media screen and (max-width:1070px){
+    body{
+    background-size: contain;
+    
+    }
 }
