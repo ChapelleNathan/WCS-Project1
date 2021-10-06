@@ -1,7 +1,7 @@
 .trainings{
     display: flex;
     flex-direction: column;
-    background-color: var(--dark-transparent);
+    background-color: var(--yellow-transparent);
     margin: var(--spacing3);
     border-radius: var(--spacing);
     padding: var(--spacing3);

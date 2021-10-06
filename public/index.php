@@ -128,6 +128,30 @@
         </div>
 
     </section>
+
+    <div class="formulaire">
+        <form action="">
+        <label for="name">Nom</label>
+        <input type="text" name="" id="name" placeholder="Bob">
+
+        <label for="lastname">Prénom</label>
+        <input type="text" id="lastname" placeholder="L'Éponge">
+
+        <label for="select">Sujet</label>
+        <select name="" id="select">
+            <option value="stage">Pour un stage</option>
+            <option value="emploi">Pour un emploi</option>
+            <option value="renseignement">Pour un renseignement</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea name="" id="message" cols="30" rows="10" placeholder="Inscrivez d'autre renseignement utile"></textarea>
+
+        <button>Envoyer</button>
+    </form>
+    </div>
+    
+
     <footer>
         <h2>Me contacter :</h2>
         <div class="contactMe">
@@ -150,8 +174,6 @@
         </div>
 
     </footer>
-
-
 </body>
 
 </html>

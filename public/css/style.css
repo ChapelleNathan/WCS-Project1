@@ -4,7 +4,7 @@
 @import url("tophead.css"); 
 @import url("trainings.css");
 @import url("exp.css");
-
+@import url('form.css');
 
 @font-face {
     font-family: 'krabby_pattyregular';
@@ -20,7 +20,8 @@
     --lighter-font-color: #a77c67;
     --lighter-second-color: #80aae248;
     --dark-color: rgb(41, 41, 33);
-    --dark-transparent: rgba(248, 248, 190, 0.205);
+    --yellow-transparent: rgba(248, 248, 190, 0.205);
+    --light : rgb(255, 255, 248);
 
 
     --spacing      : 8px;
