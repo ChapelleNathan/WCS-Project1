@@ -23,7 +23,8 @@
     }
     
     .bloc img {
-       width: 171.8px;
+       max-width: 171.8px;
+       max-height: 171.8px;
        border : 1px solid var(--font-color);
        border-radius: var(--spacing);
     }

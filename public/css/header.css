@@ -18,8 +18,8 @@ nav h1 {
     display: flex;
     flex-direction: row;
     right: 0;
-    padding: 0 var(--spacing3);
     font-size: 11px;
+    margin-right: var(--spacing3);
 }
 
 .myCV {
@@ -48,9 +48,10 @@ nav a:hover {
     color: var(--second-color);
 }
 
-.closeBurger {
+.linkCloseBurger {
     display: none;
     transition: .3s;
+    width: 0;
 }
 
 @media screen and (max-width: 1070px) {

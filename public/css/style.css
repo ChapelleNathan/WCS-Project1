@@ -56,6 +56,7 @@ body {
     background-repeat: repeat-y;
     font-weight      : bold;
     color            : var(--font-color);
+    box-sizing: border-box;
 }
 
 a {

@@ -30,13 +30,15 @@ button{
 }
 
 button:hover{
-    background-color: var(--second-color);
+    background-color: var(--yellow-transparent);
     cursor: pointer;
 }
+
 
 label{
     margin-top: var(--spacing);
     margin-bottom: 2px;
+    font-size: 20px;
 }
 
 textarea{
@@ -46,16 +48,16 @@ textarea{
     padding: var(--spacing);
     font-family: var(--font);
     align-self: center;
-    width: 96%;
     border: 2px solid var(--second-color);
     outline: none;
     transition: .5s;
+    width: 100%;
     background-color: var(--light);
 }
 
 textarea:focus{
     border-color: var(--main-color);
-    width: 100%;
+    width: 105%;
 }
 
 input{
@@ -63,7 +65,7 @@ input{
     border: 2px solid var(--second-color);
     padding: var(--spacing);
     align-self: center;
-    width: 96%;
+    width: 100%;
     transition: .5s;
     outline: none;
     background-color: var(--light);
@@ -71,15 +73,25 @@ input{
 
 input:focus{
     border-color: var(--main-color);
-    width: 100%;
+    width: 105%;
 }
 
 select{
     align-self: center;
-    width: 99%;
+    width: 100%;
     transition: 0.5s;
     padding: var(--spacing);
     border-radius: 8px;
     border: 2px solid var(--second-color);
     background-color: var(--light);
 }
+
+.error{
+    font-size: 12px;
+    background-color: rgba(218, 181, 181, 0.486);
+    border-radius: 8px;
+    padding: var(--spacing);
+    color: rgb(199, 24, 24);
+    margin-top: 4px;
+}
+
