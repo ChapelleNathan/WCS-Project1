@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'krabby_pattyregular';
-    src        : url(font/some-time-later.regular.otf);
+    src        : url('../font/some-time-later.regular.otf');
     font-weight: normal;
     font-style : normal;
 }
@@ -55,7 +55,7 @@ body {
     background-repeat: repeat-y;
     font-weight      : bold;
     color            : var(--font-color);
-    cursor           : url('images/cursor.cur'), default;
+    cursor           : url('../images/cursor.cur'), default;
 }
 
 a {
