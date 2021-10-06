@@ -1,6 +1,9 @@
 @import url("header.css");
 @import url("footer.css");
 @import url("stylePersonal.css");
+@import url("tophead.css"); 
+@import url("trainings.css");
+@import url("exp.css");
 @font-face {
     font-family: 'krabby_pattyregular';
     src: url('font/krabbypatty-pkzab-webfont.woff2') format('woff2'), url('font/krabbypatty-pkzab-webfont.woff') format('woff');

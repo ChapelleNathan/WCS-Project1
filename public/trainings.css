@@ -1,0 +1,19 @@
+.trainings{
+    display: flex;
+    border: solid;
+    margin-top: 15px
+    ;
+}
+.trainings p{
+    display: inline-block;
+    font-size: 22px;
+}
+h2{
+    font-family: var(--title-font);
+        margin: 0 15px 15px 0;
+        font-size: 40px;
+        text-transform: cap;
+        margin-left: 15px;
+        margin-top: 15px;
+}
+    
