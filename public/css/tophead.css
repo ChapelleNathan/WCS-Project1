@@ -19,6 +19,7 @@
         padding: var(--spacing2);
         gap: var(--spacing3);
         padding: var(--spacing3);
+        backdrop-filter: blur(5px);
     }
     
     .bloc img {
