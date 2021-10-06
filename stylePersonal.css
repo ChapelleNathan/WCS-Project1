@@ -67,16 +67,10 @@ hr {
     justify-content: space-between;
 }
 
-.fishing {
+.fishing, .bobBurger {
     max-width    : 100em;
     height       : auto;
     margin-bottom: var(--spacing2);
-}
-
-.bobBurger {
-    max-width : 100em;
-    height    : auto;
-    margin-top: var(--spacing2);
 }
 
 .mantra {
@@ -110,14 +104,15 @@ ul {
     .mantra {
         height: auto;
         width : auto;
+        font-size: 3em;
     }
 
     .interests {
-        width: 80vw;
+        width: 90vw;
     }
 
     .skills {
-        width         : 80vw;
+        width         : 90vw;
         flex-direction: column-reverse;
     }
 
@@ -139,6 +134,9 @@ ul {
     }
     .progressBar{
         margin-top: calc(var(--spacing) / 2);
+    }
+    .bobBurger, .fishing{
+        width: 90vw;
     }
 
     hr {
