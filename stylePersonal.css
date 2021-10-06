@@ -129,7 +129,6 @@ ul {
     }
 
     .skillsList {
-        display       : flex;
         flex-direction: column;
         margin-bottom : var(--spacing2);
     }
