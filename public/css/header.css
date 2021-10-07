@@ -74,7 +74,7 @@ nav a:hover {
         height         : 30px;
         width          : 100%;
         justify-content: center;
-        font-size      : clamp(1.5em, 5vw, 24px);
+        font-size      : clamp(1.5em, 5vw, var(--spacingg2));
     }
 
     .navigation a:hover {

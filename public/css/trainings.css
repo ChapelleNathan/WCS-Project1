@@ -1,21 +1,11 @@
-<<<<<<< HEAD
 .trainings {
     display         : flex;
     flex-direction  : column;
-    background-color: var(--dark-transparent);
+    background-color: var(--yellow-transparent);
     margin          : var(--spacing3);
     border-radius   : var(--spacing);
     padding         : var(--spacing3);
-=======
-.trainings{
-    display: flex;
-    flex-direction: column;
-    background-color: var(--yellow-transparent);
-    margin: var(--spacing3);
-    border-radius: var(--spacing);
-    padding: var(--spacing3);
-    backdrop-filter: blur(5px);
->>>>>>> 6a342b083b71d92ee2143a80eb333d26f61047c3
+    backdrop-filter : blur(5px);
 }
 
 .trainings-info {
@@ -31,27 +21,20 @@
 
 .trainings h3 {
     font-family     : var(--title-font);
-    font-size       : 40px;
+    font-size       : var(--font-size-title);
     margin          : 0;
     margin-block-end: var(--spacing3);
 }
 
 .trainings h4 {
-    font-size  : 36px;
+    font-size  : var(--font-size-important-points);
     font-family: var(--font);
     margin     : 0;
 }
 
 .trainings p {
-    color: var(--lighter-font-color);
-<<<<<<< HEAD
-}
-=======
-    font-size: 22px;
-    
+    color    : var(--lighter-font-color);
+    font-size: var(--font-size-main-points);
+
 
 }
-
-
-    
->>>>>>> 6a342b083b71d92ee2143a80eb333d26f61047c3

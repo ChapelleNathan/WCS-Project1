@@ -26,14 +26,20 @@
 
     --spacing      : 8px;
     --spacing2     : calc(var(--spacing) * 2);
+    --spacingg2    : calc(var(--spacing) * 3);
     --spacing3     : calc(var(--spacing2) * 2);
     --spacing4     : calc(var(--spacing3) * 2);
     --spacingSkills: 125px;
 
+    --semi-section-size: 500px;
 
-    --font      : "Roboto", sans-serif;
-    --title-font: 'krabby_pattyregular';
 
+    --font                      : "Roboto", sans-serif;
+    --title-font                : 'krabby_pattyregular';
+    --font-size-title           : 46px;
+    --font-size-main-points     : 22px;
+    --font-size-seconday-points : 18px;
+    --font-size-important-points: 32px;
 }
 
 html {
@@ -85,6 +91,5 @@ a:visited {
 @media screen and (max-width:1070px) {
     body {
         background-size: contain;
-
     }
 }

@@ -8,7 +8,7 @@ footer {
 footer h2 {
     user-select : none;
     padding-left: var(--spacing3);
-    font-size   : 24px;
+    font-size   : var(--spacingg2);
     font-family : var(--title-font);
     color       : var(--font-color);
 }
@@ -22,13 +22,13 @@ footer h2 :hover {
 }
 
 .mentionIcon {
-    width : 24px;
-    height: 24px;
+    width : var(--spacingg2);
+    height: var(--spacingg2);
 }
 
 @media screen and (max-width: 700px) {
 
     footer h2 {
-        font-size: clamp(1.07em, 4vw, 24px);
+        font-size: clamp(1.07em, 4vw, var(--spacingg2));
     }
 }
