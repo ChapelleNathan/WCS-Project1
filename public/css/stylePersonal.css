@@ -161,7 +161,5 @@ ul {
         width: 90vw;
         margin-bottom: var(--spacing3);
     }
-    .interests img {
-        width     : fit-content;
-    }
+   
 }
