@@ -81,7 +81,7 @@ select{
     width: 100%;
     transition: 0.5s;
     padding: var(--spacing);
-    border-radius: 8px;
+    border-radius: 4px;
     border: 2px solid var(--second-color);
     background-color: var(--light);
     outline: none;

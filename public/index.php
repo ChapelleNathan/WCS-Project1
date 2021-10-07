@@ -1,10 +1,5 @@
 <?php
-if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
     require '../src/form.php';
-    if(empty($errors)){
-        header('Location : index.php/#formulaire');
-    }
-}
 ?>
 
 <!DOCTYPE html>
@@ -172,9 +167,9 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
 
             <label for="select">Sujet</label>
             <select name="select" id="select">
-                <option value="stage">Pour un stage</option>
-                <option value="emploi">Pour un emploi</option>
-                <option value="renseignement">Pour un renseignement</option>
+                <?php foreach ($reasons as $key => $reason) : ?>
+                    <option value="<?= $key ?>"><?= $reason ?></option>
+                <?php endforeach ?>
             </select>
             <?php if (!empty($errors)) : ?>
                 <?php if (isset($errors['notInSelect'])) : ?>
@@ -183,7 +178,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
             <?php endif ?>
 
             <label for="message">Message</label>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Inscrivez d'autre renseignement utile"><?= $data['message'] ?? ''?></textarea>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Inscrivez d'autre renseignement utile"><?= $data['message'] ?? '' ?></textarea>
             <?php if (!empty($errors)) : ?>
                 <?php if (isset($errors['noMessage'])) : ?>
                     <p class="error"><?= $errors['noMessage'] ?></p>
@@ -200,10 +195,10 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
     <footer>
 
         <h2><a href="http://www.spontex.fr"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
-                <path d="M8 .95 14.61 4h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.379l.5 2A.5.5 0 0 1 15.5 17H.5a.5.5 0 0 1-.485-.621l.5-2A.5.5 0 0 1 1 14V7H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 4h.89L8 .95zM3.776 4h8.447L8 2.05 3.776 4zM2 7v7h1V7H2zm2 0v7h2.5V7H4zm3.5 0v7h1V7h-1zm2 0v7H12V7H9.5zM13 7v7h1V7h-1zm2-1V5H1v1h14zm-.39 9H1.39l-.25 1h13.72l-.25-1z" />
-            </svg>
-            Mentions Légales
-        </a></h2>
+                    <path d="M8 .95 14.61 4h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.379l.5 2A.5.5 0 0 1 15.5 17H.5a.5.5 0 0 1-.485-.621l.5-2A.5.5 0 0 1 1 14V7H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 4h.89L8 .95zM3.776 4h8.447L8 2.05 3.776 4zM2 7v7h1V7H2zm2 0v7h2.5V7H4zm3.5 0v7h1V7h-1zm2 0v7H12V7H9.5zM13 7v7h1V7h-1zm2-1V5H1v1h14zm-.39 9H1.39l-.25 1h13.72l-.25-1z" />
+                </svg>
+                Mentions Légales
+            </a></h2>
     </footer>
 </body>
 
