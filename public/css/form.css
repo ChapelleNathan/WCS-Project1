@@ -84,6 +84,12 @@ select{
     border-radius: 8px;
     border: 2px solid var(--second-color);
     background-color: var(--light);
+    outline: none;
+    transition: .5s;
+}
+
+select:focus{
+    border-color: var(--main-color);
 }
 
 .error{

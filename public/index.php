@@ -189,7 +189,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
                     <p class="error"><?= $errors['noMessage'] ?></p>
                 <?php endif ?>
             <?php endif ?>
-            <?php if (empty($errors)) : ?>
+            <?php if (empty($errors) && $_SERVER['REQUEST_METHOD'] !== 'GET') : ?>
                 <p class="success">Succès !</p>
             <?php endif ?>
             <button>Envoyer</button>
