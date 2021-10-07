@@ -1,7 +1,7 @@
 @import url("header.css");
 @import url("footer.css");
 @import url("stylePersonal.css");
-@import url("tophead.css"); 
+@import url("tophead.css");
 @import url("trainings.css");
 @import url("exp.css");
 
@@ -14,13 +14,13 @@
 }
 
 :root {
-    --main-color: #F2E422;
-    --second-color: #5bc6cece;
-    --font-color: #AD6542;
-    --lighter-font-color: #a77c67;
+    --main-color          : #F2E422;
+    --second-color        : #5bc6cece;
+    --font-color          : #AD6542;
+    --lighter-font-color  : #a77c67;
     --lighter-second-color: #80aae248;
-    --dark-color: rgb(41, 41, 33);
-    --dark-transparent: rgba(248, 248, 190, 0.356);
+    --dark-color          : rgb(41, 41, 33);
+    --dark-transparent    : rgba(248, 248, 190, 0.356);
 
 
     --spacing      : 8px;
@@ -39,12 +39,12 @@ html {
     scroll-behavior: smooth;
 }
 
-p{
-  font-size: 20px;
-  margin: 0;
+p {
+    font-size: 20px;
+    margin   : 0;
 }
 
-h1{
+h1 {
     font-family: var(--title-font);
 }
 
@@ -63,7 +63,7 @@ a {
     color          : var(--font-color)
 }
 
-p{
+p {
     font-family: var(--font);
 }
 
