@@ -69,6 +69,7 @@ nav a:hover {
         box-shadow: -3px 0 10px;
         z-index: 1;
         margin-right: 0;
+        transition: 1s cubic-bezier(.86,0,.07,1);
     }
     .navigation a {
         height: 30px;
@@ -78,11 +79,9 @@ nav a:hover {
     }
     #navigation:not(:target) {
         right: -100%;
-        transition: .5s;
     }
     #navigation:target {
         right: 0%;
-        transition: 1s;
     }
     .linkCloseBurger {
         display: flex;
