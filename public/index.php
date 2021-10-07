@@ -1,7 +1,9 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
     require '../src/form.php';
-    var_dump($data);
+    if(empty($errors)){
+        header('Location : index.php/#formulaire');
+    }
 }
 ?>
 
@@ -145,7 +147,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
     <div class="formulaire" id="formulaire">
         <form action="#formulaire" method="POST">
             <label for="lastname">Nom</label>
-            <input type="text" name="lastname" id="lastname" placeholder="Bob" value="<?= $data['lastname'] ?>">
+            <input type="text" name="lastname" id="lastname" placeholder="Bob" value="<?= $data['lastname'] ?? '' ?>">
             <?php if (!empty($errors)) : ?>
                 <?php if (isset($errors['lastnameEmpty'])) : ?>
                     <p class="error"><?= $errors['lastnameEmpty'] ?></p>
@@ -157,7 +159,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
 
 
             <label for="firstname">Prénom</label>
-            <input type="text" id="firstname" name="firstname" placeholder="L'Éponge" value="<?= $data['firstname'] ?>">
+            <input type="text" id="firstname" name="firstname" placeholder="L'Éponge" value="<?= $data['firstname'] ?? '' ?>">
             <?php if (!empty($errors)) : ?>
                 <?php if (isset($errors['firstnameEmpty'])) : ?>
                     <p class="error"><?= $errors['firstnameEmpty'] ?></p>
@@ -181,7 +183,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
             <?php endif ?>
 
             <label for="message">Message</label>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Inscrivez d'autre renseignement utile"><?= $data['message'] ?></textarea>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Inscrivez d'autre renseignement utile"><?= $data['message'] ?? ''?></textarea>
             <?php if (!empty($errors)) : ?>
                 <?php if (isset($errors['noMessage'])) : ?>
                     <p class="error"><?= $errors['noMessage'] ?></p>
