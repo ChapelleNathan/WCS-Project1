@@ -4,7 +4,7 @@
 @import url("tophead.css");
 @import url("trainings.css");
 @import url("exp.css");
-
+@import url('form.css');
 
 @font-face {
     font-family: 'krabby_pattyregular';
@@ -20,7 +20,8 @@
     --lighter-font-color  : #a77c67;
     --lighter-second-color: #80aae248;
     --dark-color          : rgb(41, 41, 33);
-    --dark-transparent    : rgba(248, 248, 190, 0.356);
+    --yellow-transparent  : rgba(248, 248, 190, 0.205);
+    --light               : rgb(255, 255, 248);
 
 
     --spacing      : 8px;
@@ -49,13 +50,15 @@ h1 {
 }
 
 body {
-    margin           : 0;
-    background-image : url('../images/flowers.jpg');
-    background-size  : cover;
-    background-repeat: repeat-y;
-    font-weight      : bold;
-    color            : var(--font-color);
-    cursor           : url('../images/cursor.cur'), default;
+    margin               : 0;
+    background-image     : url('../images/flowers.jpg');
+    background-attachment: fixed;
+    background-size      : cover;
+    background-repeat    : repeat-y;
+    font-weight          : bold;
+    color                : var(--font-color);
+    box-sizing           : border-box;
+    cursor               : url('../images/cursor.cur'), default;
 }
 
 a {

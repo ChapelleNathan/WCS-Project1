@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .trainings {
     display         : flex;
     flex-direction  : column;
@@ -5,6 +6,16 @@
     margin          : var(--spacing3);
     border-radius   : var(--spacing);
     padding         : var(--spacing3);
+=======
+.trainings{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--yellow-transparent);
+    margin: var(--spacing3);
+    border-radius: var(--spacing);
+    padding: var(--spacing3);
+    backdrop-filter: blur(5px);
+>>>>>>> 6a342b083b71d92ee2143a80eb333d26f61047c3
 }
 
 .trainings-info {
@@ -33,4 +44,14 @@
 
 .trainings p {
     color: var(--lighter-font-color);
+<<<<<<< HEAD
 }
+=======
+    font-size: 22px;
+    
+
+}
+
+
+    
+>>>>>>> 6a342b083b71d92ee2143a80eb333d26f61047c3

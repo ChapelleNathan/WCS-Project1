@@ -1,11 +1,12 @@
 .experience {
     display         : flex;
     flex-direction  : column;
-    background-color: var(--dark-transparent);
+    background-color: var(--yellow-transparent);
     border-radius   : var(--spacing);
     margin          : var(--spacing3);
     padding         : var(--spacing3);
     gap             : var(--spacing);
+    backdrop-filter : blur(5px);
 }
 
 .experience-info {

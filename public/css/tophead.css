@@ -14,16 +14,18 @@
 
     .bloc {
         display         : flex;
-        background-color: var(--dark-transparent);
+        background-color: var(--yellow-transparent);
         margin          : var(--spacing3);
         border-radius   : var(--spacing);
         padding         : var(--spacing2);
         gap             : var(--spacing3);
         padding         : var(--spacing3);
+        backdrop-filter : blur(5px);
     }
 
     .bloc img {
-        width        : 171.8px;
+        max-width    : 171.8px;
+        max-height   : 171.8px;
         border       : 1px solid var(--font-color);
         border-radius: var(--spacing);
     }
