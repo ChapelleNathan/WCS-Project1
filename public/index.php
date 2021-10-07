@@ -166,8 +166,9 @@ require '../src/script.php';
             </div>
             <div class="interests">
                 <img class="fishing" src="images/bobMéduse.png" alt="Bob filet méduse">
-                <h3 id="interests">Centres d'intérêt</h3>
+                
                 <ul>
+                    <h3 id="interests">Centres d'intérêt</h3>
                     <li>Faire des bulles de savon avec Patrick</li>
                     <li>Attraper des méduses</li>
                     <li>Faire du karaté avec Sandy</li>

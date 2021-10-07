@@ -68,21 +68,13 @@ nav a:hover {
         background-color: var(--main-color);
         box-shadow: -3px 0 10px;
         z-index: 1;
+        margin-right: 0;
     }
     .navigation a {
         height: 30px;
         width: 100%;
         justify-content: center;
         font-size: clamp(1.5em, 5vw, 24px);
-    }
-    .navigation a:hover {
-        background-color: var(--darker-main-color);
-        border-radius: 3px;
-        box-shadow: 0 0 1px rgb(39, 39, 39);
-    }
-    .navigation .linkCloseBurger:hover {
-        background-color: var(--main-color);
-        box-shadow: none;
     }
     #navigation:not(:target) {
         right: -100%;
@@ -92,7 +84,7 @@ nav a:hover {
         right: 0%;
         transition: 1s;
     }
-    .closeBurger {
+    .linkCloseBurger {
         display: flex;
         width: clamp(15px, 4vw, 20px);
         height: clamp(15px, 4vh, 20px);
