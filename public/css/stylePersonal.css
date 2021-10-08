@@ -111,20 +111,27 @@ ul {
     }
 
     .personalStuff {
-        align-items: center;
+        align-items   : center;
+        flex-direction: column;
+        height        : auto;
+        width         : 100%;
     }
 
-    .interests {
-        width: 60vw;
+    .hobbies {
+        width: 80vw;
     }
 
     .skills {
         flex-direction: column-reverse;
-        width         : 60vw;
+        width         : 80vw;
+    }
+
+    .hobbiesList {
+        width: 80vw;
     }
 
     ul {
-        width     : 40vw;
+        width     : 90%;
         align-self: center;
     }
 
@@ -132,17 +139,14 @@ ul {
         flex-direction: column;
     }
 
-    .personalStuff {
-        flex-direction: column;
-        height        : auto;
-    }
+
 
     li {
         font-size : clamp(.5em, 2vw, 16px);
         align-self: center;
     }
 
-    .skillsAndInterests h3 {
+    .skillsAndHobbies h3 {
         font-size: clamp(1em, 3vw, 40px);
     }
 
@@ -153,7 +157,7 @@ ul {
 
     .progressBar {
         margin-top: calc(var(--spacing) / 2);
-        width     : clamp(1em, 25vw, 50vw);
+        min-width : 2em;
     }
 
     .bobBurger,

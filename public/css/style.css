@@ -87,3 +87,9 @@ img {
 a:visited {
     color: var(--font-color)
 }
+
+@media screen and (max-width:1070px) {
+    body {
+        background-size: contain;
+    }
+}

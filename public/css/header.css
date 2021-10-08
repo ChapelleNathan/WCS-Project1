@@ -66,10 +66,10 @@ nav a:hover {
         height          : 100vh;
         width           : 40vw;
         background-color: var(--main-color);
-        box-shadow: -3px 0 10px;
-        z-index: 1;
-        margin-right: 0;
-        transition: 1s cubic-bezier(.86,0,.07,1);
+        box-shadow      : -3px 0 10px;
+        z-index         : 1;
+        margin-right    : 0;
+        transition      : 1s cubic-bezier(.86, 0, .07, 1);
     }
 
     .navigation a {
@@ -78,6 +78,7 @@ nav a:hover {
         justify-content: center;
         font-size      : clamp(1.5em, 5vw, var(--spacingg2));
     }
+
     #navigation:not(:target) {
         right: -100%;
     }
@@ -85,6 +86,7 @@ nav a:hover {
     #navigation:target {
         right: 0%;
     }
+
     .linkCloseBurger {
         display: flex;
         width  : clamp(15px, 4vw, 20px);

@@ -11,13 +11,13 @@ $formations = [
         'title' => 'Formation de l\'huitre ouverte',
         'date' => '2018',
         'place' => 'Occitan Coastline',
-        'description' => 'Formation aux différentes techniques d\'ouverture d\'huitres (avec ou sans outil).'
+        'description' => 'Formation aux différentes techniques d\'ouverture d\'huitres (avec ou sans outil)'
     ],
     [
-        'title' => 'Crabe Croustillants',
-        'date' => '1990-2018',
+        'title' => 'École des bonnes manières',
+        'date' => '1986-1987',
         'place' => 'Bikini Bottom',
-        'description' => 'Chef cuisiner,employés du mois à plusieur reprise et plusieur distinction comme badge du cuisinier qui fais les meilleurs pâtés de crabe'
+        'description' => 'Cours de savoir-vivre pour apprendre les bons comportements en société'
     ],
 ];
 
@@ -33,11 +33,5 @@ $experiences = [
         'date' => '2018 - 2021',
         'place' => 'Angular Bucket',
         'description' => 'Découverte d\'une véritable passion pour l\'ouverture d\'huitres.'
-    ],
-    [
-        'title' => 'Crabe Croustillants',
-        'date' => '1990-2018',
-        'place' => 'Bikini Bottom',
-        'description' => 'Chef cuisiner,employés du mois à plusieur reprise et plusieur distinction comme badge du cuisinier qui fais les meilleurs pâtés de crabe'
     ],
 ];
