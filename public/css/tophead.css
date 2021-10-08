@@ -28,3 +28,8 @@
        border : 1px solid var(--font-color);
        border-radius: var(--spacing);
     }
+    @media screen and (max-width:905px){
+        .bloc{
+            flex-direction: column;
+        }
+    }

@@ -3,7 +3,7 @@
 $formations = [
     ['title' => 'University burger flip', 'date' => '1988-1990', 'place' => 'Bikini Bottom', 'description' => 'Un apprentissage dans le flip de burger à l\'aide d\'un grand chef pendant 2 ans.'],
     ['title' => 'Formation de l\'huitre ouverte', 'date' => '2018-2018', 'place' => 'Occitan coastline', 'description' => 'Formation dans l\'ouverture d\'huitre.'],
-    ['title' => 'École des bonnes manières', 'date' => '1986-1987', 'place' => 'Bikini Bottom', 'description' => 'Cours de savoir-vivre pour apprendre les geste à avoir en société'],É 
+    ['title' => 'École des bonnes manières', 'date' => '1986-1987', 'place' => 'Bikini Bottom', 'description' => 'Cours de savoir-vivre pour apprendre les geste à avoir en société'],
 ];
 
 
