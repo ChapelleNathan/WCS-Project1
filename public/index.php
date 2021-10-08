@@ -225,8 +225,7 @@ require '../src/script.php';
             <?php endif ?>
 
             <label for="message">Message</label>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Inscrivez d'autre renseignement utile">
-                <?= $data['message'] ?? '' ?>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Inscrivez d'autre renseignement utile"><?= $data['message'] ?? '' ?>
             </textarea>
             <?php if (!empty($errors)) : ?>
                 <?php if (isset($errors['noMessage'])) : ?>
