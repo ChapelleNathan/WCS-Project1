@@ -35,6 +35,11 @@
 .trainings p {
     color    : var(--lighter-font-color);
     font-size: var(--font-size-main-points);
+}
 
-
+@media screen and (max-width : 905px) {
+    .trainings{
+        width: 80vw;
+        margin: 0;
+    }
 }

@@ -41,3 +41,10 @@
 .datesAndLocations {
     font-size: var(--font-size-seconday-points);
 }
+
+@media screen and (max-width : 905px) {
+    .experience{
+        width: 80vw;
+        margin: 0;
+    }
+}

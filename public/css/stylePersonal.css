@@ -69,6 +69,7 @@
     height     : 154px;
     text-shadow: 0 0 2px black;
     user-select: none;
+    transition: .5s;
 }
 
 
@@ -98,30 +99,54 @@ ul {
 }
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:905px) {
     .mantra {
         height   : auto;
         width    : auto;
         font-size: 3em;
     }
 
-    .hobbies {
-        width: 90vw;
+    .mantra:hover{
+        font-size: 3em;
+    }
+
+    .personalStuff{
+        align-items   : center;
+        flex-direction: column;
+        height        : auto;
+        width: 100%;
+    }
+
+    .hobbies{
+        width: 80vw;
     }
 
     .skills {
-        width         : 90vw;
         flex-direction: column-reverse;
+        width: 80vw;
+    }
+
+    .hobbiesList{
+        width: 80vw;
+    }
+    ul{
+        width: 90%;
+        align-self: center;
     }
 
     .skillsAndHobbies {
         flex-direction: column;
-        align-items   : none;
     }
 
-    .personalStuff {
-        flex-direction: column;
-        height        : auto;
+
+
+    li{
+        font-size: clamp(.5em, 2vw, 16px);
+        align-self: center;
+    }
+
+    .skillsAndHobbies h3{
+        font-size: clamp(1em, 3vw, 40px);
     }
 
     .skillsList {
@@ -131,6 +156,7 @@ ul {
 
     .progressBar {
         margin-top: calc(var(--spacing) / 2);
+        min-width: 2em;
     }
 
     .bobBurger,
@@ -138,4 +164,5 @@ ul {
         width        : 90vw;
         margin-bottom: var(--spacing3);
     }
+   
 }
