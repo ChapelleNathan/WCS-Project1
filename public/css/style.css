@@ -90,6 +90,6 @@ a:visited {
 
 @media screen and (max-width:1070px) {
     body {
-        background-size: contain;
+        background-size: cover;
     }
 }

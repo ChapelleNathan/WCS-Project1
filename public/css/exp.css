@@ -45,6 +45,7 @@
 @media screen and (max-width : 905px) {
     .experience{
         width: 80vw;
-        margin: 0;
+        margin: auto;
+        margin-bottom: var(--spacing4);
     }
 }

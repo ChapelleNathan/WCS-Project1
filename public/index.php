@@ -39,7 +39,7 @@ require '../src/script.php';
                 <a href="#experience">Expériences</a>
                 <a href="#skills">Compétences</a>
                 <a href="#hobbies">Centres d'intérêt</a>
-                <a href="#formulaire">Contacte</a>
+                <a href="#formulaire">Contact</a>
             </div>
         </nav>
     </header>
