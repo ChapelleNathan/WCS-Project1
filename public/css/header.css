@@ -66,8 +66,10 @@ nav a:hover {
         height          : 100vh;
         width           : 40vw;
         background-color: var(--main-color);
-        box-shadow      : -3px 0 10px;
-        z-index         : 1;
+        box-shadow: -3px 0 10px;
+        z-index: 1;
+        margin-right: 0;
+        transition: 1s cubic-bezier(.86,0,.07,1);
     }
 
     .navigation a {
@@ -76,29 +78,14 @@ nav a:hover {
         justify-content: center;
         font-size      : clamp(1.5em, 5vw, var(--spacingg2));
     }
-
-    .navigation a:hover {
-        background-color: var(--darker-main-color);
-        border-radius   : 3px;
-        box-shadow      : 0 0 1px rgb(39, 39, 39);
-    }
-
-    .navigation .linkCloseBurger:hover {
-        background-color: var(--main-color);
-        box-shadow      : none;
-    }
-
     #navigation:not(:target) {
-        right     : -100%;
-        transition: .5s;
+        right: -100%;
     }
 
     #navigation:target {
-        right     : 0%;
-        transition: 1s;
+        right: 0%;
     }
-
-    .closeBurger {
+    .linkCloseBurger {
         display: flex;
         width  : clamp(15px, 4vw, 20px);
         height : clamp(15px, 4vh, 20px);

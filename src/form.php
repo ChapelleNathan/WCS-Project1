@@ -2,6 +2,7 @@
 $test = false;
 $errors =  [];
 $data = array_map('trim', $_POST);
+$data = array_map('htmlentities', $data);
 $reasons = [
     'stage' => 'Pour un stage',
     'emploi' => 'Pour un emploi',
