@@ -1,98 +1,98 @@
 form {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+    display         : flex;
+    flex-direction  : column;
+    width           : 40%;
     background-color: var(--yellow-transparent);
-    backdrop-filter: blur(10px);
-    border-radius: var(--spacing);
-    padding: var(--spacing3);
-    margin: var(--spacing4);
-    font-family: var(--font);
+    backdrop-filter : blur(10px);
+    border-radius   : var(--spacing);
+    padding         : var(--spacing3);
+    margin          : var(--spacing4);
+    font-family     : var(--font);
 }
 
 .formulaire {
-    display: flex;
+    display        : flex;
     justify-content: center;
-    width: 100%;
+    width          : 100%;
 }
 
 button {
-    padding: var(--spacing2);
-    margin-top: var(--spacing2);
-    width: 30%;
-    align-self: center;
+    padding         : var(--spacing2);
+    margin-top      : var(--spacing2);
+    width           : 30%;
+    align-self      : center;
     background-color: var(--main-color);
-    color: var(--font-color);
-    font: var(--font);
-    border: none;
-    border-radius: 8px;
-    transition: 0.5s;
-    color: var(--font-color);
-    font: var(--font);
-    border: none;
-    border-radius: 8px;
-    transition: 0.5s;
-    display: flex;
-    gap: var(--spacing);
-    justify-content: center;
+    color           : var(--font-color);
+    font            : var(--font);
+    border          : none;
+    border-radius   : var(--spacing);
+    transition      : 0.5s;
+    color           : var(--font-color);
+    font            : var(--font);
+    border          : none;
+    border-radius   : var(--spacing);
+    transition      : 0.5s;
+    display         : flex;
+    gap             : var(--spacing);
+    justify-content : center;
 }
 
 button:hover {
     background-color: var(--yellow-transparent);
-    cursor: pointer;
+    cursor          : pointer;
 }
 
 label {
-    margin-top: var(--spacing);
+    margin-top   : var(--spacing);
     margin-bottom: 2px;
-    font-size: var(--font-size-main-points);
+    font-size    : var(--font-size-main-points);
 }
 
 textarea {
-    resize: none;
-    border-radius: var(--spacing);
-    border: none;
-    padding: var(--spacing);
-    font-family: var(--font);
-    align-self: center;
-    border: 2px solid var(--second-color);
-    outline: none;
-    transition: .5s;
-    width: 100%;
+    resize          : none;
+    border-radius   : var(--spacing);
+    border          : none;
+    padding         : var(--spacing);
+    font-family     : var(--font);
+    align-self      : center;
+    border          : 2px solid var(--second-color);
+    outline         : none;
+    transition      : .5s;
+    width           : 100%;
     background-color: var(--light);
 }
 
 textarea:focus {
     border-color: var(--main-color);
-    width: 105%;
+    width       : 105%;
 }
 
 input {
-    border-radius: 4px;
-    border: 2px solid var(--second-color);
-    padding: var(--spacing);
-    align-self: center;
-    width: 100%;
-    transition: .5s;
-    outline: none;
+    border-radius   : 4px;
+    border          : 2px solid var(--second-color);
+    padding         : var(--spacing);
+    align-self      : center;
+    width           : 100%;
+    transition      : .5s;
+    outline         : none;
     background-color: var(--light);
 }
 
 input:focus {
     border-color: var(--main-color);
-    width: 105%;
+    width       : 105%;
 }
 
 select {
-    align-self: center;
-    width: 100%;
-    transition: 0.5s;
-    padding: var(--spacing);
-    border-radius: 4px;
-    border: 2px solid var(--second-color);
+    align-self      : center;
+    width           : 100%;
+    transition      : 0.5s;
+    padding         : var(--spacing);
+    border-radius   : 4px;
+    border          : 2px solid var(--second-color);
     background-color: var(--light);
-    outline: none;
-    transition: .5s;
+    outline         : none;
+    transition      : .5s;
 }
 
 select:focus {
@@ -100,21 +100,21 @@ select:focus {
 }
 
 .error {
-    font-size: 12px;
+    font-size       : 12px;
     background-color: rgba(218, 181, 181, 0.486);
-    border-radius: var(--spacing);
-    padding: var(--spacing);
-    color: rgb(199, 24, 24);
-    margin-top: 4px;
+    border-radius   : var(--spacing);
+    padding         : var(--spacing);
+    color           : rgb(199, 24, 24);
+    margin-top      : 4px;
 }
 
 .success {
-    font-size: 12px;
+    font-size       : 12px;
     background-color: rgba(181, 218, 187, 0.836);
-    border-radius: var(--spacing);
-    padding: var(--spacing);
-    color: rgb(103, 199, 24);
-    margin-top: 4px;
+    border-radius   : var(--spacing);
+    padding         : var(--spacing);
+    color           : rgb(103, 199, 24);
+    margin-top      : 4px;
 }
 
 @media screen and (max-width: 1070px) {
@@ -122,15 +122,19 @@ select:focus {
         font-size: clamp(.5em, 2vw, 16px);
         min-width: 15vw;
     }
+
     select {
         font-size: clamp(.7em, 2.5vw, 16px);
     }
+
     label {
         font-size: clamp(1em, 2.5vw, 16px);
     }
+
     input {
         font-size: clamp(.7em, 2.5vw, 16px);
     }
+
     textarea {
         font-size: clamp(.7em, 2.5vw, 16px);
     }
@@ -146,6 +150,7 @@ select:focus {
     textarea {
         height: 75px;
     }
+
     input {
         padding: calc(var(--spacing) / 2);
     }
