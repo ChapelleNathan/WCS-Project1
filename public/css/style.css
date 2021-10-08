@@ -88,12 +88,8 @@ a:visited {
     color: var(--font-color)
 }
 
-<<<<<<< HEAD
 @media screen and (max-width:1070px) {
     body {
         background-size: contain;
     }
 }
-=======
-
->>>>>>> main
